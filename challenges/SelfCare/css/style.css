@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+:root {
+  --green: #5CA720;
+  --dark-grey: #161616;
+  --light-grey: #A5A1A1;
+  --lighter-grey: #F9F9F9;
+}
 body, ul, li, p, h2 {
   margin: 0;
   padding: 0;
