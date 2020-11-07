@@ -85,3 +85,29 @@ img {
   font-weight: bold;
   text-transform: uppercase;
 }
+.products-list {
+  padding: 15px 10px 75px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.products-item {
+  color: var(--dark-grey);
+  font-weight: bold;
+  margin: 25px;
+}
+.products-item-title {
+  font-size: 1.375em;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.products-item-price {
+  font-size: 1.25em;
+}
+.products-item-price span {
+  color: var(--green);
+  font-size: 1.3em;
+}
+.products-item img {
+  border-radius: 5px;
+}
