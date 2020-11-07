@@ -19,3 +19,35 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.header {
+  max-width: 1440px;
+  padding: 20px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo {
+  padding: 20px;
+}
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.menu-nav ul li + li {
+  margin-left: 5px;
+}
+.menu-nav ul li a {
+  display: block;
+  padding: 20px;
+}
+.menu-nav ul li a img {
+  width: 21px;
+  transition: opacity .2s;
+}
+.menu-nav ul li a:hover img {
+  opacity: 0.5;
+}
