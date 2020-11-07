@@ -51,3 +51,11 @@ img {
 .menu-nav ul li a:hover img {
   opacity: 0.5;
 }
+
+.banner {
+  padding: 85px;
+  background: url('../img/banner.png') center center no-repeat;
+}
+.banner img {
+  margin: 0 auto;
+}
