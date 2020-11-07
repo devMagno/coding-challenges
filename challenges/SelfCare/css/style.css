@@ -61,6 +61,27 @@ img {
 }
 .banner img {
   margin: 0 auto;
+}
+
+.products {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.products-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--light-grey);
+}
+.products-header span {
+  padding: 0 10px;
+  font-size: 1.125em;
+  color: var(--dark-grey);
+}
+.products-header span:first-child {
+  font-size: 1.25em;
   font-weight: bold;
   text-transform: uppercase;
 }
