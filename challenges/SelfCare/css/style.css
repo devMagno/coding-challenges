@@ -111,3 +111,69 @@ img {
 .products-item img {
   border-radius: 5px;
 }
+
+.footer {
+  background-color: var(--lighter-grey);
+}
+.footer-newsletter {
+  border-top: 1px solid var(--light-grey);
+  border-bottom: 1px solid var(--light-grey);
+  padding: 25px 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.footer-nav {
+  font-size: 1.125em;
+  font-weight: bold;
+  padding: 25px 0;
+  flex: 1 1 300px;
+}
+.footer-nav a {
+  color: var(--dark-grey);
+}
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+.newsletter-form label {
+  font-size: 1.125em;
+  color: var(--dark-grey);
+  font-weight: bold;
+  display: block;
+  margin-bottom: 15px;
+}
+.newsletter-form-fields {
+  display: flex;
+  flex-wrap: wrap;
+}
+.newsletter-form-fields input {
+  background-color: white;
+  color: var(--light-grey);
+  border: 1px solid var(--light-grey);
+  outline: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 1.125em;
+  padding: 15px;
+  flex: 1;
+}
+.newsletter-form-fields button {
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: var(--green);
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 1.125em;
+  padding: 15px 30px;
+  flex: 1;
+}
+@media screen and (max-width: 406px) {
+  .newsletter-form-fields input {
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  .newsletter-form-fields button {
+    border-radius: 5px;
+  }
+}
