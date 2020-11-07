@@ -180,3 +180,34 @@ img {
     border-radius: 5px;
   }
 }
+
+.footer-social {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-icons,
+.cards-icons {
+  display: flex;
+  align-items: center;
+  padding: 25px 10px;
+}
+.social-icons li img {
+  width: 40px;
+  height: auto;
+  transition: opacity .2s;
+}
+.social-icons li a:hover img{
+  opacity: 0.5;
+}
+.social-icons li + li,
+.cards-icons li + li {
+  margin-left: 15px;
+}
+@media screen and (max-width: 345px) {
+  .social-icons,
+  .cards-icons {
+    margin: 0 auto;
+  }
+}
