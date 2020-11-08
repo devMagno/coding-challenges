@@ -91,3 +91,20 @@ a {
 .hero {
   width: calc(100% - 300px);
 }
+@media screen and (max-width: 773px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero {
+    width: 80%;
+    margin: 0;
+    order: -1;
+  }
+  .content-text {
+    text-align: center;
+    max-width: 450px;
+    margin: 0;
+    flex: 0;
+  }
+}
