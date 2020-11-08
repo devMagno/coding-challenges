@@ -1,5 +1,7 @@
 # SelfCare 🌿
 ## 📖 Sobre   
+**SelfCare** é uma página de demonstração de produtos de beleza desenvolvido como um desafio, criado por **[Thaysa Gomes](https://github.com/thaysagomes)** para o **[DevChallenge](https://www.devchallenge.com.br/)**. O projeto foi desenvolvido utilizando CSS3 flexbox, sendo inteiramente responsivo.
+
 ---
 
 ## 🚀 Tecnologias e ferramentas utilizadas
