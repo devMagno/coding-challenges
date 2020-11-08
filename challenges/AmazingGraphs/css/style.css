@@ -51,4 +51,18 @@ a {
 }
 .header-nav ul li a:hover {
   opacity: .8;
+}.call-to-action {
+  display: inline-block;
+  padding: 15px 50px;
+  background: var(--orange);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: all .2s;
+  font-size: 1.125em;
+  outline: none;
+}
+.call-to-action:hover {
+  background-color: #c27d29;
+  transform: scale(1.05);
 }
