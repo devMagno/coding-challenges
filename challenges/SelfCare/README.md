@@ -1,4 +1,8 @@
 # SelfCare 🌿
+<p align="center">
+<img src="https://i.imgur.com/TZTeNTO.png" alt="SelfCare" title="SelfCare">
+</p>
+
 ## 📖 Sobre   
 **SelfCare** é uma página de demonstração de produtos de beleza desenvolvido como um desafio, criado por **[Thaysa Gomes](https://github.com/thaysagomes)** para o **[DevChallenge](https://www.devchallenge.com.br/)**. O projeto foi desenvolvido utilizando CSS3 flexbox, sendo inteiramente responsivo.
 
@@ -11,6 +15,10 @@
 ---
 
 ## 🖥️ Demonstração
+[![SelfCare](https://i.imgur.com/1SyiQwb.png "Clique para acessar o projeto")](https://devmagno.github.io/coding-challenges/challenges/SelfCare/index.html "Clique para acessar o projeto")   
+
+Você pode acessar o projeto clicando [aqui](https://devmagno.github.io/coding-challenges/challenges/SelfCare/index.html ).
+
 ---
 
 ## 🔖 Layout
