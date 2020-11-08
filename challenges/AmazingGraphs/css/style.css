@@ -33,7 +33,7 @@ a {
   color: var(--orange);
   font-size: 1.875em;
   font-weight: bold;
-  padding: 10px;
+  padding: 20px 10px;
 }
 .header-nav ul {
   display: flex;
@@ -51,7 +51,29 @@ a {
 }
 .header-nav ul li a:hover {
   opacity: .8;
-}.call-to-action {
+}
+
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  padding: 10px;
+  color: var(--gray);
+  justify-content: space-between;
+}
+.content-text {
+  flex-basis: 500px;
+  margin-top: 50px;
+}
+.title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+.content-text p {
+  margin-bottom: 20px;
+  font-size: 1.25em;
+}
+.call-to-action {
   display: inline-block;
   padding: 15px 50px;
   background: var(--orange);
@@ -65,4 +87,7 @@ a {
 .call-to-action:hover {
   background-color: #c27d29;
   transform: scale(1.05);
+}
+.hero {
+  width: calc(100% - 300px);
 }
