@@ -52,7 +52,12 @@ a {
 .header-nav ul li a:hover {
   opacity: .8;
 }
-
+@media screen and (max-width: 504px) {
+ .header .logo, 
+ .header-nav {
+    margin: 0 auto
+  }
+}
 .content {
   max-width: 960px;
   margin: 0 auto;
