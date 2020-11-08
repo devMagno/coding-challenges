@@ -167,6 +167,11 @@ img {
   font-size: 1.125em;
   padding: 15px 30px;
   flex: 1;
+  cursor: pointer;
+  transition: opacity .2s;
+}
+.newsletter-form-fields button:hover {
+  opacity: .8;
 }
 @media screen and (max-width: 406px) {
   .footer-nav {
