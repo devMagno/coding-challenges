@@ -20,4 +20,35 @@ img {
 a {
   text-decoration: none;
 }
+
+.header {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.header .logo {
+  color: var(--orange);
+  font-size: 1.875em;
+  font-weight: bold;
+  padding: 10px;
+}
+.header-nav ul {
+  display: flex;
+  align-items: center;
+}
+.header-nav ul li a {
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.125em;
+  color: var(--gray);
+  transition: opacity .2s;
+}
+.header-nav ul li + li {
+  margin-left: 10px;
+}
+.header-nav ul li a:hover {
+  opacity: .8;
 }
