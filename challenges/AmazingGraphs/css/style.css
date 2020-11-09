@@ -22,6 +22,7 @@ a {
 }
 
 .header {
+  padding: 0 10px;
   max-width: 960px;
   margin: 0 auto;
   display: flex;
@@ -33,7 +34,7 @@ a {
   color: var(--orange);
   font-size: 1.875em;
   font-weight: bold;
-  padding: 20px 10px;
+  padding: 20px 10px 10px 0;
 }
 .header-nav ul {
   display: flex;
@@ -52,9 +53,10 @@ a {
 .header-nav ul li a:hover {
   opacity: .8;
 }
-@media screen and (max-width: 504px) {
+@media screen and (max-width: 514px) {
  .header .logo, 
  .header-nav {
+   padding: 10px;
     margin: 0 auto
   }
 }
