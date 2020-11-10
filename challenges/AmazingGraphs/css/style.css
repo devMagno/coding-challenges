@@ -94,6 +94,7 @@ a {
 .call-to-action:hover {
   background-color: #c27d29;
   transform: scale(1.05);
+  box-shadow: 0px 2px 5px rgb(170, 170, 170);
 }
 .hero {
   width: calc(100% - 300px);
