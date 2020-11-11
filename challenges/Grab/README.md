@@ -13,7 +13,9 @@
 ---
 
 ## 🖥️ Demonstração
+[![Grab](https://i.imgur.com/SW3NoZv.png "Clique para acessar o projeto")](https://devmagno.github.io/coding-challenges/challenges/Grab/index.html "Clique para acessar o projeto")   
 
+Você pode acessar o projeto clicando [aqui](https://devmagno.github.io/coding-challenges/challenges/Grab/index.html).
 
 ---
 
