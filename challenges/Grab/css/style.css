@@ -53,6 +53,9 @@ header img {
   color: white;
   font-size: 1.125em;
 }
+.input-container input:valid {
+  border: 2px solid #3CDC8C;
+}
 .input-container + .input-container {
   margin-top: 20px;
 }
