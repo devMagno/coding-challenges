@@ -26,8 +26,12 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 100vh;
+}
+header img {
+  width: 180px;
+  margin-top: 10vh;
 }
 .input-container {
   position: relative;
