@@ -21,3 +21,50 @@ body {
   background: var(--blue);
   font-family: 'Roboto', sans-serif;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+}
+.input-container {
+  position: relative;
+}
+.input-container label {
+  position: absolute;
+  left: 20px;
+  top: 15px;
+  color: white;
+}
+.input-container input {
+  border-radius: 25px;
+  background: transparent;
+  outline: none;
+  border: 2px solid white;
+  padding: 15px 15px 15px 50px;
+  color: white;
+  font-size: 1.125em;
+}
+.input-container + .input-container {
+  margin-top: 20px;
+}
+.login-btn {
+  margin-top: 30px;
+  font-size: 1.125em;
+  width: 100%;
+  padding: 15px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: white;
+  color: #504F60;
+  font-weight: bold;
+  transition: background .2s;
+}
+.login-btn:hover {
+  background-color: #ececec;
+}
+}
