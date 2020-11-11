@@ -56,6 +56,9 @@ header img {
 .input-container input:valid {
   border: 2px solid #3CDC8C;
 }
+.input-container input:valid ~ label {
+  color: #3CDC8C;
+}
 .input-container + .input-container {
   margin-top: 20px;
 }
