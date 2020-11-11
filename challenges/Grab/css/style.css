@@ -71,4 +71,18 @@ header img {
 .login-btn:hover {
   background-color: #ececec;
 }
+footer {
+  color: white;
+  text-align: center;
+}
+footer a {
+  color: white;
+  font-weight: bold;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+.illustration {
+  display: none;
 }
