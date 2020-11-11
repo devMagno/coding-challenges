@@ -18,6 +18,7 @@
 ---
 
 ## 🔖 Layout
+O design do projeto foi desenvolvido por [Magiel Dantas](https://github.com/magdielndantas) e pode ser acessado clicando **[aqui](https://www.figma.com/file/QYQm17sJV0ZhviTGOa1jmZ/Grab-Login?node-id=0%3A1)**.
 
 ---
 
