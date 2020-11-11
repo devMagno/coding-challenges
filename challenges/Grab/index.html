@@ -15,12 +15,14 @@
       </header>
       <form action="" class="login-form">
         <div class="input-container">
-          <input type="email" name="e-mail" id="e-mail" required>
+          <input onchange="verifyEmailValue()" type="email" name="e-mail" id="e-mail" required>
           <label for="e-mail"><span class="material-icons">alternate_email</span></label>
+          <p class="result"></p>
         </div>
         <div class="input-container">
-          <input type="password" name="password" id="password" minlength="4" maxlength="8" required>
+          <input onchange="verifyPasswordValue()" type="password" name="password" id="password" minlength="8" maxlength="20" required>
           <label for="password"><span class="material-icons">lock</span></label>
+          <p class="result"></p>
         </div>
         <button type="submit" class="login-btn">Entrar</button>
       </form>
