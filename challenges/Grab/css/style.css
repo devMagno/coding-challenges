@@ -28,6 +28,8 @@ main {
   align-items: center;
   justify-content: space-evenly;
   height: 100vh;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 header img {
   width: 180px;
@@ -85,4 +87,24 @@ footer a:hover {
 
 .illustration {
   display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  main {
+    flex: 1;
+  }
+  .illustration {
+    background: var(--grey);
+    display: flex;
+    flex: 2;
+    overflow: hidden;
+    height: 100vh;
+  }
+  .illustration img {
+    margin-left: -100px;
+  }
 }
