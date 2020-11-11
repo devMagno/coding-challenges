@@ -5,3 +5,19 @@
   --red: #FF5757;
   --grey: #F8F8F8;
 }
+
+a {
+  text-decoration: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+body {
+  background: var(--blue);
+  font-family: 'Roboto', sans-serif;
+}
