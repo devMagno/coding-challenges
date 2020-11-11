@@ -16,11 +16,11 @@
       <form action="" class="login-form">
         <div class="input-container">
           <label for="e-mail"><span class="material-icons">alternate_email</span></label>
-          <input type="email" name="e-mail" id="e-mail">
+          <input type="email" name="e-mail" id="e-mail" required>
         </div>
         <div class="input-container">
           <label for="password"><span class="material-icons">lock</span></label>
-          <input type="password" name="password" id="password">
+          <input type="password" name="password" id="password" minlength="4" maxlength="8" required>
         </div>
         <button type="submit" class="login-btn">Entrar</button>
       </form>
