@@ -62,6 +62,12 @@ header img {
 .input-container + .input-container {
   margin-top: 20px;
 }
+.input-container p.result {
+  color: white;
+  margin-top: 5px;
+  font-size: 0.9em;
+  text-align: center;
+}
 .login-btn {
   margin-top: 30px;
   font-size: 1.125em;
