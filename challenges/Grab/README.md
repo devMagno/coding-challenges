@@ -4,6 +4,7 @@
 </p>
 
 ## 📖 Sobre   
+**Grab** é uma página de login desenvolvida como um desafio criado por **[Magdiel Dantas](https://github.com/magdielndantas)** para o **[DevChallenge](https://www.devchallenge.com.br/)**. O projeto trata-se de uma página de login **responsiva** e com validação de dados utilizando **RegEx**
 
 ---
 
