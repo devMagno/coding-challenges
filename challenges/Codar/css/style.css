@@ -162,3 +162,41 @@ body {
   color: white;
   cursor: pointer;
 }
+
+.quotes {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 100px 10px 60px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.quotes-quote {
+  background: #DCDCDC;
+  border-radius: 10px;
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  flex: 1 1 360px;
+}
+.quote-img {
+  flex: 0 1 100px;
+}
+.quote-img img {
+  border-radius: 50%;
+  width: 100px;
+}
+.quote-text {
+  flex: 2 1 400px;
+}
+.quote-text cite {
+  display: block;
+  margin-top: 5px;
+  font-size: 1.5em;
+  font-style: normal;
+}
+.quote-text cite span {
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+}
