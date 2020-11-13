@@ -7,7 +7,7 @@ img {
   display: block;
   max-width: 100%;
 }
-ul, li, p, blockquote, h1, h2, h4 {
+body, ul, li, p, blockquote, h1, h2, h4 {
   margin: 0;
   padding: 0;
 }
@@ -199,4 +199,43 @@ body {
   display: block;
   font-size: 1rem;
   font-weight: bold;
+}
+
+.footer {
+  background: black;
+  color: white;
+  padding: 60px calc((100% - 1080px) / 2);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-items: center;
+}
+.footer a {
+  color: white;
+}
+.footer-section {
+  flex-basis: 190px;
+  margin: 0 10px 30px;
+}
+.footer-section h2 {
+  font-size: 2.25em;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.footer-section h4 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.contacts-list li + li {
+  margin-top: 16px;
+}
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2.25em;
+}
+.social-list li a {
+  color: var(--red);
 }
