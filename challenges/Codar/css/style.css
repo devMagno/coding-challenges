@@ -68,23 +68,26 @@ body {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .hero-img {
-  flex-basis: 500px;
   padding: 10px;
-  flex-shrink: 1;
+  flex: 1 1 350px;
 }
 .hero-text {
   padding: 10px;
+  flex: 1 1 300px;
 }
-.hero-text h1 {
-  font-size: 3em;
+.hero-text h1 span {
+  font-size: 2.125em;
   color: var(--red);
+  line-height: 0.9;
 }
 .hero-text h1 p {
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: black;
+  margin-bottom: 10px;
 }
 .hero-text a {
   display: inline-block;
