@@ -48,6 +48,10 @@ body {
   font-size: 1.125em;
   padding: 10px;
   color: black;
+  transition: all .2s;
+}
+.header-menu li a:hover {
+  opacity: .6;
 }
 .header-menu li a.btn {
   color: white;
@@ -99,6 +103,10 @@ body {
   font-size: 1.125em;
   padding: 10px 50px;
   text-align: center;
+  transition: transform .2s;
+}
+.hero-text a:hover {
+  transform: scale(1.05);
 }
 
 .benefits {
@@ -161,6 +169,10 @@ body {
   background: var(--red);
   color: white;
   cursor: pointer;
+  transition: transform .2s;
+}
+.call-button:hover {
+  transform: scale(1.05);
 }
 
 .quotes {
@@ -231,6 +243,9 @@ body {
 .contacts-list li + li {
   margin-top: 16px;
 }
+.contacts-list li a:hover {
+  text-decoration: underline;
+}
 .social-list {
   display: flex;
   justify-content: space-between;
@@ -238,4 +253,8 @@ body {
 }
 .social-list li a {
   color: var(--red);
+  transition: color .2s;
+}
+.social-list li a:hover {
+  color: #d6000ebe;
 }
