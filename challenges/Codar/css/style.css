@@ -100,3 +100,28 @@ body {
   padding: 10px 50px;
   text-align: center;
 }
+
+.benefits {
+  padding: 60px 0;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.benefits-list {
+  padding: 10px;
+  font-size: 1.5em;
+  flex: 1 1 300px;
+}
+.benefits-list i {
+  color: var(--red);
+}
+.benefits-list li + li {
+  margin-top: 15px;
+}
+.benefits-img {
+  flex: 1 1 350px;
+  padding: 10px;
+}
