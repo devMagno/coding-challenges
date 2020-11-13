@@ -56,3 +56,44 @@ body {
   padding: 10px 50px;
   margin-right: 10px;
 }
+
+.main {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.hero {
+  padding: 60px 0;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-img {
+  flex-basis: 500px;
+  padding: 10px;
+  flex-shrink: 1;
+}
+.hero-text {
+  padding: 10px;
+}
+.hero-text h1 {
+  font-size: 3em;
+  color: var(--red);
+}
+.hero-text h1 p {
+  font-size: 1rem;
+  color: black;
+}
+.hero-text a {
+  display: inline-block;
+  margin-top: 24px;
+  background: var(--red);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 1.125em;
+  padding: 10px 50px;
+  text-align: center;
+}
