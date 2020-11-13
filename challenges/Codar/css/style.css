@@ -102,7 +102,7 @@ body {
 }
 
 .benefits {
-  padding: 60px 0;
+  padding: 60px 0 10px 0;
   max-width: 960px;
   margin: 0 auto;
   display: flex;
@@ -127,7 +127,7 @@ body {
 }
 
 .call {
-  padding: 20px 0;
+  padding: 5px 0 20px 0;
   max-width: 960px;
   margin: 0 auto;
 }
