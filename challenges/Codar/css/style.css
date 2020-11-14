@@ -118,6 +118,15 @@ body {
 .hero-text a:hover {
   transform: scale(1.05);
 }
+@media screen and (max-width: 719px) {
+  .hero-img {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .hero-text {
+    text-align: center;
+  }
+}
 
 .benefits {
   padding: 60px 0 10px 0;
