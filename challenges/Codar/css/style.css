@@ -203,6 +203,11 @@ body {
 .call-button:hover {
   transform: scale(1.05);
 }
+@media screen and (max-width: 539px) {
+  .call-input, .call-button {
+    max-width: none;
+  }
+}
 
 .quotes {
   max-width: 1080px;
