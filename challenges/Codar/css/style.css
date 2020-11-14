@@ -292,3 +292,9 @@ body {
 .social-list li a:hover {
   color: #d6000ebe;
 }
+@media screen and (max-width: 420px) {
+  .footer-section {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
