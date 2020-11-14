@@ -152,6 +152,16 @@ body {
   flex: 1 1 350px;
   padding: 10px;
 }
+@media screen and (max-width: 695px) {
+  .benefits {
+    flex-direction: column;
+  }
+  .benefits-img {
+    order: -1;    
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
 
 .call {
   padding: 5px 0 20px 0;
