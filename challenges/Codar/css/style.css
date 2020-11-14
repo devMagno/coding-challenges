@@ -60,6 +60,16 @@ body {
   padding: 10px 50px;
   margin-right: 10px;
 }
+@media screen and (max-width: 511px) {
+  .header-menu li a.btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 357px) {
+  .header {
+    flex-direction: column;
+  }
+}
 
 .main {
   max-width: 1080px;
