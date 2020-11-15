@@ -17,3 +17,9 @@ img {
   max-width: 100%;
   display: block;
 }
+
+body {
+  color: var(--black);
+  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
