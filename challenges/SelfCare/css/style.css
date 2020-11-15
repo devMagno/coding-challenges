@@ -57,7 +57,7 @@ img {
 
 .banner {
   padding: 7%;
-  background: url('../img/banner.png') center center no-repeat;
+  background: url('../img/banner.png') center center;
 }
 .banner img {
   margin: 0 auto;
