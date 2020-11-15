@@ -111,12 +111,13 @@ img {
   border-radius: 5px;
 }
 
-.footer {
+.footer-container {
+  padding: 0 calc((100% - 1440px) / 2);
   background-color: var(--lighter-grey);
-}
-.footer-newsletter {
   border-top: 1px solid var(--light-grey);
   border-bottom: 1px solid var(--light-grey);
+}
+.footer-newsletter {
   padding: 25px 10px;
   display: flex;
   justify-content: space-between;
@@ -186,6 +187,7 @@ img {
 }
 
 .footer-social {
+  padding: 0 calc((100% - 1440px) / 2);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
