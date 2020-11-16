@@ -20,9 +20,18 @@ img {
   max-width: 100%;
   display: block;
 }
-
 body {
   color: var(--black);
   font-family: 'Nunito', Arial, Helvetica, sans-serif;
   font-weight: 600;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 }
