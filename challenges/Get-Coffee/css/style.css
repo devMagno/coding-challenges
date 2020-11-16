@@ -34,4 +34,19 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+.header {
+  box-shadow: 0px 1px 8px rgba(36, 36, 36, 0.15);
+  padding: 20px 0;
+}
+.header-logo img {
+  padding: 10px;
+}
+.header-nav ul {
+  display: flex;
+}
+.header-nav ul li a {
+  font-size: 1.125em;
+  padding: 10px;
+  color: var(--black);
 }
