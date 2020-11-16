@@ -46,6 +46,7 @@ body {
   display: flex;
 }
 .header-nav ul li a {
+  display: inline-block;
   font-size: 1.125em;
   padding: 10px;
   color: var(--black);
@@ -56,6 +57,11 @@ body {
 }
 .header-nav ul li + li {
   margin-left: 25px;
+}
+@media screen and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+  }
 }
 
 .body-wrapper {
