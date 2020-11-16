@@ -58,7 +58,7 @@ body {
 .header-nav ul li + li {
   margin-left: 25px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 510px) {
   .container {
     flex-direction: column;
   }
