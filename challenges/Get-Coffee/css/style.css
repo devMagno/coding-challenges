@@ -86,6 +86,11 @@ body {
   font-weight: bold;
   font-size: 1.5em;
   margin-bottom: 30px;
+  text-align: center;
+  transition: transform .2s;
+}
+.hero-btn:hover {
+  transform: scale(1.05);
 }
 .social-list {
   display: flex;
@@ -93,6 +98,12 @@ body {
 }
 .social-list li + li {
   margin-left: 15px;
+}
+.social-list a img {
+  transition: transform .2s;
+}
+.social-list a:hover img {
+  transform: scale(1.1);
 }
 
 .footer {
