@@ -49,6 +49,13 @@ body {
   font-size: 1.125em;
   padding: 10px;
   color: var(--black);
+  transition: opacity .2s;
+}
+.header-nav ul li a:hover {
+  opacity: .6;
+}
+.header-nav ul li + li {
+  margin-left: 25px;
 }
 
 .body-wrapper {
