@@ -50,3 +50,40 @@ body {
   padding: 10px;
   color: var(--black);
 }
+
+.body-wrapper {
+  background: url('../img/formas.svg') no-repeat center center;
+}
+.hero {
+  margin: 0 auto;
+  max-width: 1120px;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 10px;
+  align-items: center;
+}
+.hero-text {
+  max-width: 500px;
+}
+.hero-text h1 {
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+.hero-btn {
+  display: inline-block;
+  color: white;
+  background-color: var(--yellow);
+  padding: 12px 50px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+.social-list {
+  display: flex;
+  align-items: center;
+}
+.social-list li + li {
+  margin-left: 15px;
+}
