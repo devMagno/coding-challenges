@@ -67,6 +67,11 @@ body {
 .body-wrapper {
   background: url('../img/formas.svg') no-repeat center center;
 }
+@media screen and (max-width: 705px) {
+  .body-wrapper{
+    background: url('../img/formas-mobile.svg') no-repeat center center;
+  }
+}
 .hero {
   margin: 0 auto;
   max-width: 1120px;
