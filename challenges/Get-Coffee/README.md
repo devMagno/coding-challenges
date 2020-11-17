@@ -4,7 +4,7 @@
 </p>
 
 ## 📖 Sobre   
-
+**Get Coffee** é uma _landing page_ de uma cafeteria on-line desenvolvida como um desafio, criado por **[Luciane Santos](https://github.com/lucianesantcs)** para o **[DevChallenge](https://www.devchallenge.com.br/)**. O projeto foi desenvolvido utilizando CSS3 flexbox, além de _media queries_ para garantir a responsividade da página.
 
 ---
 
