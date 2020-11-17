@@ -22,7 +22,7 @@ Você pode acessar o projeto clicando [aqui](https://devmagno.github.io/coding-c
 ---
 
 ## 🔖 Layout
-
+O layout do projeto foi desenvolvido por [Luciane Santos](https://github.com/lucianesantcs) e pode ser acessado clicando [aqui](https://www.figma.com/file/lVkh41YvYiMposXwaJXOYO/get-coffee-layout?node-id=0%3A1).
 
 ---
 
