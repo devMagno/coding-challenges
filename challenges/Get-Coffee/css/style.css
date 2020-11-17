@@ -134,3 +134,23 @@ body {
   font-weight: bold;
   font-size: 1.125em;
 }
+@media screen and (max-width: 510px) {
+  .hero-text h1 {
+    margin-bottom: 25px;
+  }
+  .hero-text {
+    text-align: center;
+    display: flex;
+    box-sizing: border-box;
+    height: calc(100vh - 160px);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .hero-btn {
+    padding: 12px 30px;
+  }
+  .footer, .hero-img {
+    display: none;
+  }
+}
