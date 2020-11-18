@@ -28,3 +28,11 @@ body {
   background-color: var(--black);
   font-family: 'Rubik', sans-serif;
 }
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
