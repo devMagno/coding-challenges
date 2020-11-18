@@ -66,3 +66,27 @@ body {
   font-size: 1.125em;
   border-radius: 5px;
 }
+
+.infos {
+  display: flex;
+  margin-top: 40px;
+  gap: 20px;
+}
+.infos li {
+  flex: 1;
+  padding: 15px;
+  border-radius: 10px;
+}
+.infos li p {
+  font-size: 2.125em;
+  font-weight: bold;
+}
+.infos li:first-child {
+  background-color: var(--green);
+}
+.infos li:nth-child(2) {
+  background-color: var(--blue);
+}
+.infos li:last-child {
+  background-color: var(--yellow);
+}
