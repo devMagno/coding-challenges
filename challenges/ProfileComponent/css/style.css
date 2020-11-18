@@ -81,6 +81,10 @@ body {
   flex: 1;
   padding: 15px;
   border-radius: 10px;
+  transition: transform .2s;
+}
+.infos li:hover {
+  transform: scale(1.04);
 }
 .infos li p {
   font-size: 2.125em;
