@@ -95,3 +95,23 @@ body {
 .infos li:last-child {
   background-color: var(--yellow);
 }
+
+@media screen and (max-width: 592px) {
+  .card {
+    width: 100vw;
+    position: relative;
+  }
+  .top-info, .top-info-left, .infos {
+    flex-direction: column;
+  }
+  .top-info-left {
+    text-align: center;
+    margin-left: -15px;
+    margin-bottom: 15px;
+  }
+  .top-info-left .img {
+    position: absolute;
+    margin-right: -15px;
+    top: -50px;
+  }
+}
