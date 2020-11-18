@@ -8,3 +8,23 @@
   --blue: #044A7D;
   --yellow: #725200;
 }
+body, h1, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+ul, li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+body {
+  color: var(--white);
+  background-color: var(--black);
+  font-family: 'Rubik', sans-serif;
+}
