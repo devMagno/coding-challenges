@@ -89,6 +89,7 @@ body {
 .infos li p {
   font-size: 2.125em;
   font-weight: bold;
+  margin-top: 5px;
 }
 .infos li:first-child {
   background-color: var(--green);
