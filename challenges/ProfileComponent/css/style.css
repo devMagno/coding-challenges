@@ -102,6 +102,10 @@ body {
 }
 
 @media screen and (max-width: 592px) {
+  .container {
+    padding: 40px 0 0 0;
+    box-sizing: border-box;
+  }
   .card {
     width: 100vw;
     position: relative;
