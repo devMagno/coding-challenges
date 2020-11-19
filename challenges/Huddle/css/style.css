@@ -5,3 +5,17 @@
   --violet: hsl(257, 40%, 49%);
   --magenta: hsl(300, 69%, 71%);
 }
+body, h1, p, ul, li {
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+ul, li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
