@@ -4,7 +4,7 @@
 </p>
 
 ## 📖 Sobre   
-**Codar** é uma _landing page_ de uma empresa de websites desenvolvida como um desafio criado por **[Lorena GM](https://github.com/Lorenalgm)** para o **[DevChallenge](https://www.devchallenge.com.br/)**. O projeto foi desenvolvido utilizando CSS flexbox para com um design inteiramente responsivo.
+**Codar** é uma _landing page_ de uma empresa de websites desenvolvida como um desafio criado por **[Lorena Montes](https://github.com/Lorenalgm)** para o **[DevChallenge](https://www.devchallenge.com.br/)**. O projeto foi desenvolvido utilizando CSS flexbox para com um design inteiramente responsivo.
 
 ---
 
