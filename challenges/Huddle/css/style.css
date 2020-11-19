@@ -42,4 +42,20 @@ h1 {
   max-width: 200px;
 }
 
+.hero {
+  padding: 20px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.hero-img,
+.hero-text {
+  padding: 30px 10px 0 10px;
+}
+.hero-text h1 {
+  max-width: 400px;
+}
+.hero-text p {
+  margin-top: 20px;
+  max-width: 460px;
 }
