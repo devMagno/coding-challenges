@@ -57,6 +57,7 @@ body {
 .img img {
   width: 96px;
   border-radius: 50px;
+  box-shadow: 0 0 0 3px white;
 }
 .name {
   margin-left: 15px;
