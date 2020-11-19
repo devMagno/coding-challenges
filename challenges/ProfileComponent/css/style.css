@@ -104,7 +104,7 @@ body {
 
 @media screen and (max-width: 592px) {
   .container {
-    padding: 40px 0 0 0;
+    padding: 15vh 0 0 0;
     box-sizing: border-box;
   }
   .card {
