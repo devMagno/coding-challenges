@@ -6,3 +6,12 @@
   --dark-blue: hsl(249, 10%, 26%); 
   --light-blue: hsl(246, 25%, 77%);
 }
+
+body, h1, p, form, input, button {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+}
