@@ -81,3 +81,33 @@ p {
   background-color: var(--magenta);
   color: white;
 }
+
+.footer {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 10px 10px 20px 10px;
+}
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+}
+.social-icons li + li {
+  margin-left: 20px;
+}
+.social-icons li a {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25em;
+  color: white;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 50px;
+  height: 35px;
+  width: 35px;
+  transition: color .2s;
+}
+.social-icons li a:hover {
+  color: var(--magenta);
+}
