@@ -111,3 +111,30 @@ p {
 .social-icons li a:hover {
   color: var(--magenta);
 }
+
+@media screen and (max-width: 650px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/bg-mobile.svg');
+  }
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .hero .illustration {
+    max-width: 460px;
+    padding: 10px 40px;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .hero-text h1 {
+    max-width: 460px;
+  }
+  .hero-text p {
+    margin: 5px auto;
+    max-width: 380px;
+  }
+}
