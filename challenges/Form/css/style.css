@@ -14,4 +14,31 @@ body, h1, p, form, input, button {
 a {
   text-decoration: none;
 }
+
+body {
+  background-color: var(--red);
+  background-image: url('../img/bg-intro-desktop.png');
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  color: white;
+}
+h1 {
+  font-size: 2.75em;
+  line-height: 1.2;
+}
+.form-top span {
+  font-weight: 600;
+}
+.form-input {
+  font-family: 1.125em;
+  color: var(--dark-blue);
+  font-weight: 700;
+}
+.form-footer a {
+  color: var(--red);
+  font-weight: 600;
+}
 }
