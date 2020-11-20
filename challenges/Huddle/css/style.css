@@ -99,14 +99,16 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.25em;
+  font-size: 1.4em;
   color: white;
-  padding: 10px;
   border: 1px solid;
   border-radius: 50px;
-  height: 35px;
-  width: 35px;
+  height: 45px;
+  width: 45px;
   transition: color .2s;
+}
+.social-icons li a span {
+  display: none;
 }
 .social-icons li a:hover {
   color: var(--magenta);
