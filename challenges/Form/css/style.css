@@ -41,4 +41,20 @@ h1 {
   color: var(--red);
   font-weight: 600;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.intro {
+  max-width: 500px;
+}
+.intro h1 {
+  margin-bottom: 20px;
+}
 }
