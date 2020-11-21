@@ -18,7 +18,6 @@ a {
 body {
   background-color: var(--red);
   background-image: url('../img/bg-intro-desktop.png');
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -46,6 +45,8 @@ h1 {
 }
 
 .container {
+  box-sizing: border-box;
+  height: 100vh;
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -69,6 +70,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 10px;
 }
 .form-top {
   box-sizing: border-box;
@@ -135,4 +137,17 @@ form {
 }
 .form-footer a:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-image: url('../img/bg-intro-mobile.png');
+  }
+  .intro {
+    text-align: center;
+  }
+  .intro h1 {
+    font-size: 2em;
+    margin: 15px auto;
+  }
 }
