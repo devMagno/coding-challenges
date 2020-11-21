@@ -34,7 +34,7 @@ h1 {
 .form-input {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   color: var(--dark-blue);
-  font-weight: 700;
+  font-weight: 500;
 }
 .form-footer {
   color: var(--light-blue);
@@ -94,6 +94,9 @@ form {
   display: flex;
   flex-direction: column;
 }
+.form-label {
+  display: none;
+}
 .form-input {
   padding: 17px 20px;
   border-radius: 8px;
@@ -107,7 +110,7 @@ form {
 .form-input:focus {
   border-color: var(--dark-blue);
 }
-.form-input + .form-input {
+.form-input ~ .form-input {
   margin-top: 20px;
 }
 .btn {
