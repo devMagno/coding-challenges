@@ -57,4 +57,21 @@ h1 {
 .intro h1 {
   margin-bottom: 20px;
 }
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-top {
+  box-sizing: border-box;
+  text-align: center;
+  display: block;
+  background-color: var(--blue);
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 7px 1px rgba(0, 0, 0, 0.17);
+  margin-bottom: 25px;
+}
 }
