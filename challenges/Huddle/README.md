@@ -3,6 +3,10 @@
 <img src="img/logo.svg" alt="Huddle" title="Huddle">
 </p>
 
+## 🖥️ Demonstração
+[![Huddle](https://i.imgur.com/bftdIrk.png "Clique para acessar o desafio")](https://devmagno.github.io/coding-challenges/challenges/Huddle/index.html "Clique para acessar o desafio")   
+
+Você pode acessar o desafio clicando [aqui](https://devmagno.github.io/coding-challenges/challenges/Huddle/index.html).
 
 ---
 
