@@ -24,3 +24,9 @@ $divider: hsl(240, 5%, 91%);
     font-size: em(24);
   }
 }
+
+@mixin box-shadow($shadow...) {
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
