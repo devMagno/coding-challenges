@@ -11,3 +11,16 @@ $soft-red: hsl(14, 88%, 65%);
 $grayish-blue: hsl(240, 6%, 50%);
 $darker-grayish-blue: hsl(237, 12%, 33%);
 $divider: hsl(240, 5%, 91%);
+
+@function em($pixel, $context: 16) {
+  @return $pixel / $context + em;
+}
+@mixin typo($size) {
+  font-family: $font;
+  @if $size == 12 {
+    font-size: em(12);
+  }
+  @else if $size == 24 {
+    font-size: em(24);
+  }
+}
