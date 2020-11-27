@@ -1,0 +1,30 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(360deg, $soft-blue 0%, $soft-violet 90%);
+}
+
+.card {
+  box-sizing: border-box;
+  max-width: 1100px;
+  padding: 50px;
+  background: url('../../img/bg-pattern-desktop.svg') no-repeat center center;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 20px 20px transparentize($color: $dark-blue, $amount: 0.7);
+  position: relative;
+  .box-img {
+    position: absolute;
+    top: 150px;
+    left: -70px;
+  }
+}
+
+.illustration-mobile {
+  display: none;
+}
