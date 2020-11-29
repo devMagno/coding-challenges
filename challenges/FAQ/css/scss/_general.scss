@@ -46,7 +46,15 @@
   }
 }
 .card-faq {
-  max-width: 400px;
+  max-height: 400px;
+  overflow: scroll;
+  flex-basis: 400px;
+  max-width: 700px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
   > p {
     @include typo(32);
     font-weight: bold;
