@@ -45,3 +45,16 @@
     }
   }
 }
+.card-faq {
+  max-width: 400px;
+  > p {
+    @include typo(32);
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+
+  .list-item ~ p {
+    padding: 20px 0;
+    border-bottom: 1px solid $divider;
+  }
+}
