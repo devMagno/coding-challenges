@@ -10,7 +10,7 @@
   box-sizing: border-box;
   flex: 1;
   max-width: 1000px;
-  padding: 50px;
+  padding: 50px 80px 50px 50px;
   background: url('../img/bg-pattern-desktop.svg') no-repeat;
   background-size: 500px;
   background-position: bottom -20px left -90px;
@@ -19,11 +19,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @include device(medium) {
+    max-width: 900px;
+    padding: 50px 30px 50px 0px;
+  }
   @include box-shadow(0px 20px 20px transparentize($color: $dark-blue, $amount: 0.75));
   position: relative;
   .card-images {
     overflow: hidden;
     margin-left: -50px;
+    @include device(medium) {
+      margin-left: 0;
+    }
     .box-img {
       position: absolute;
       top: 190px;
