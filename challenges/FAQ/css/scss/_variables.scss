@@ -17,12 +17,7 @@ $divider: hsl(240, 5%, 91%);
 }
 @mixin typo($size) {
   font-family: $font;
-  @if $size == 12 {
-    font-size: em(12);
-  }
-  @else if $size == 32 {
-    font-size: em(32);
-  }
+  font-size: em($size);
 }
 
 @mixin box-shadow($shadow...) {
