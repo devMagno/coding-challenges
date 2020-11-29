@@ -20,8 +20,8 @@ $divider: hsl(240, 5%, 91%);
   @if $size == 12 {
     font-size: em(12);
   }
-  @else if $size == 24 {
-    font-size: em(24);
+  @else if $size == 32 {
+    font-size: em(32);
   }
 }
 
