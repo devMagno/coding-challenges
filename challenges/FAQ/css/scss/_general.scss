@@ -60,9 +60,40 @@
     font-weight: bold;
     margin-bottom: 12px;
   }
-
-  .list-item ~ p {
-    padding: 20px 0;
+  .list-item {
     border-bottom: 1px solid $divider;
+    .trigger-input {
+      display: none;
+      &:checked {
+        ~ .checkbox-wrapper {
+          label {
+            font-weight: 700;
+            img {
+              transform: rotate(180deg);
+            }
+          }
+          p {
+            display: block;
+          }
+        }
+      }
+    }
+    label {
+      @include typo(18);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0 20px 2px;
+      cursor: pointer;
+      transition: color .2s;
+      &:hover {
+        color: $soft-red;
+      }
+    }
+    p {
+      @include typo(16);
+      padding: 0 0 15px 0;
+      display: none;
+    }
   }
 }
