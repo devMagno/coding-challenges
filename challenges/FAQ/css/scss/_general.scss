@@ -8,15 +8,18 @@
 
 .card {
   box-sizing: border-box;
-  max-width: 1100px;
+  flex: 1;
+  max-width: 1000px;
   padding: 50px;
-  background: url('../../img/bg-pattern-desktop.svg') no-repeat center center;
+  background: url('../img/bg-pattern-desktop.svg') no-repeat;
+  background-size: 500px;
+  background-position: bottom -20px left -90px;
   background-color: white;
   border-radius: 15px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  @include box-shadow(0px 20px 20px transparentize($color: $dark-blue, $amount: 0.7));
+  justify-content: space-between;
+  @include box-shadow(0px 20px 20px transparentize($color: $dark-blue, $amount: 0.75));
   position: relative;
   .box-img {
     position: absolute;
