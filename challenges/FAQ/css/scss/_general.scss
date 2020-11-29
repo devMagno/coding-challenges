@@ -57,6 +57,7 @@
   }
   > p {
     @include typo(32);
+    color: $dark-blue;
     font-weight: bold;
     margin-bottom: 12px;
   }
@@ -80,6 +81,7 @@
     }
     label {
       @include typo(18);
+      color: $darker-grayish-blue;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -92,6 +94,7 @@
     }
     p {
       @include typo(16);
+      color: $grayish-blue;
       padding: 0 0 15px 0;
       display: none;
     }
