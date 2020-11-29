@@ -33,8 +33,9 @@
     }
     .box-img {
       position: absolute;
-      top: 190px;
+      top: 185px;
       left: -100px;
+      animation: box .8s linear 0s infinite alternate;
     }
     .illustration-desktop {
       margin-left: -70px;
@@ -98,5 +99,14 @@
       padding: 0 0 15px 0;
       display: none;
     }
+  }
+}
+
+@keyframes box {
+  from {
+    top: 185px
+  }
+  to {
+    top: 195px;
   }
 }
