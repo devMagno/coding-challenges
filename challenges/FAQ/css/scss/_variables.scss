@@ -30,3 +30,16 @@ $divider: hsl(240, 5%, 91%);
   -moz-box-shadow: $shadow;
   box-shadow: $shadow;
 }
+
+@mixin device($size) {
+  @if $size == medium {
+    @media only screen and (max-width: 1100px) {
+      @content;
+    }
+  }
+  @else if $size == small {
+    @media only screen and (max-width: 1000px) {
+      @content; 
+    }
+  }
+}
