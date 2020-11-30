@@ -50,7 +50,7 @@
       position: absolute;
       top: 185px;
       left: -100px;
-      animation: box .8s linear 0s infinite alternate;
+      animation: box .9s linear 0s infinite alternate;
       @include device(small) {
         display: none;
       }
@@ -151,9 +151,9 @@
 
 @keyframes box {
   from {
-    top: 185px
+    transform: translateY(0);
   }
   to {
-    top: 195px;
+    transform: translateY(10px);
   }
 }
