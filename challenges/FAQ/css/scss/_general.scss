@@ -121,7 +121,7 @@
       }
     }
     label {
-      @include typo(18);
+      @include typo(16);
       color: $darker-grayish-blue;
       display: flex;
       justify-content: space-between;
@@ -133,17 +133,17 @@
         color: $soft-red;
       }
       @include device(small) {
-        font-size: em(16);
+        font-size: em(14);
       }
     }
     p {
-      @include typo(16);
+      @include typo(14);
       color: $grayish-blue;
       padding: 0 0 15px 0;
       line-height: 1.5;
       display: none;
       @include device(small) {
-        font-size: em(14);
+        font-size: em(12);
       }
     }
   }
