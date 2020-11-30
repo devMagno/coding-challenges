@@ -7,10 +7,11 @@
 }
 
 .card {
+  min-height: 500px;
   box-sizing: border-box;
   flex: 1;
   max-width: 1000px;
-  padding: 50px 80px 50px 50px;
+  padding: 30px 60px 30px 30px;
   background: url('../img/bg-pattern-desktop.svg') no-repeat;
   background-size: 750px;
   background-position: bottom -100px left -350px;
@@ -38,7 +39,7 @@
   position: relative;
   .card-images {
     overflow: hidden;
-    margin-left: -50px;
+    margin-left: -30px;
     @include device(medium) {
       margin-left: 0;
     }
@@ -70,8 +71,8 @@
   }
 }
 .card-faq {
-  flex-basis: 400px;
-  max-width: 700px;
+  flex: 1 1 400px;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   @include device(small) {
@@ -90,7 +91,7 @@
   }
   .faq-list {
     width: 100%;
-    max-height: 295px;
+    max-height: 350px;
     overflow: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
