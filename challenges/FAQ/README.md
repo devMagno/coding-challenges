@@ -15,6 +15,9 @@
 
 ---
 ## 🖥️ Demonstração
+[![FAQ Accordion Card](https://i.imgur.com/cPaADPE.png "Clique para acessar o desafio")](https://devmagno.github.io/coding-challenges/challenges/FAQ/index.html "Clique para acessar o desafio")   
+
+Você pode acessar o desafio clicando [aqui](https://devmagno.github.io/coding-challenges/challenges/FAQ/index.html).
 
 ---
 **Desenvolvido com 💜 por [Guilherme Magno](https://github.com/devmagno/).**
