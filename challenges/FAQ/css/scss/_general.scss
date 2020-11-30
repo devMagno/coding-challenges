@@ -72,6 +72,13 @@
 .card-faq {
   flex-basis: 400px;
   max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  @include device(small) {
+    align-items: center;
+    flex-basis: auto;
+    width: 100%;
+  }
   > p {
     @include typo(32);
     color: $dark-blue;
@@ -79,12 +86,16 @@
     margin-bottom: 12px;
   }
   .faq-list {
+    width: 100%;
     max-height: 295px;
     overflow: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
     &::-webkit-scrollbar {
       display: none;
+    }
+    @include device(small) {
+      max-height: unset;
     }  
   }
   .list-item {
