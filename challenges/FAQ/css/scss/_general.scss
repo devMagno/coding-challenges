@@ -50,13 +50,22 @@
       top: 185px;
       left: -100px;
       animation: box .8s linear 0s infinite alternate;
+      @include device(small) {
+        display: none;
+      }
     }
     .illustration-desktop {
       margin-left: -70px;
-  
+      @include device(small) {
+        display: none;
+      }
     }
     .illustration-mobile {
       display: none;
+      @include device(small) {
+        display: block;
+        margin: -110px 0 20px -30px;
+      }
     }
   }
 }
