@@ -23,6 +23,17 @@
     max-width: 900px;
     padding: 50px 30px 50px 0px;
   }
+  @include device(small) {
+    max-width: 800px;
+    flex: 1 1 280px;
+    flex-direction: column;
+    margin: 140px 20px 20px 20px;
+    background-image: url('../img/bg-pattern-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50% -15px;
+    padding: 0px 20px 20px;
+  }
   @include box-shadow(0px 20px 20px transparentize($color: $dark-blue, $amount: 0.75));
   position: relative;
   .card-images {
@@ -30,6 +41,9 @@
     margin-left: -50px;
     @include device(medium) {
       margin-left: 0;
+    }
+    @include device(small) {
+      overflow: visible;
     }
     .box-img {
       position: absolute;
