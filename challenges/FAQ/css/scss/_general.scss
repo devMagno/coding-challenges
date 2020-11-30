@@ -135,6 +135,9 @@
       @include device(small) {
         font-size: em(14);
       }
+      img {
+        transition: transform .2s;
+      }
     }
     p {
       @include typo(14);
