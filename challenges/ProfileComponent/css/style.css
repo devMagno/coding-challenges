@@ -76,13 +76,15 @@ body {
 .infos {
   display: flex;
   margin-top: 40px;
-  gap: 20px;
 }
 .infos li {
   flex: 1;
   padding: 15px;
   border-radius: 10px;
   transition: transform .2s;
+}
+.infos li + li {
+  margin-left: 20px;
 }
 .infos li:hover {
   transform: scale(1.04);
