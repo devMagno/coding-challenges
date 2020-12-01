@@ -126,4 +126,8 @@ body {
     margin-right: -15px;
     top: -50px;
   }
+  .infos li + li {
+    margin-left: 0;
+    margin-top: 20px;
+  }
 }
