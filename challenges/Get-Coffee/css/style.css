@@ -132,6 +132,9 @@ body {
   font-weight: bold;
   font-size: 1.125em;
 }
+.footer-img {
+  animation: scroll 1.4s linear 0s infinite alternate;
+}
 @media screen and (max-width: 510px) {
   .hero-text h1 {
     margin-bottom: 25px;
@@ -150,5 +153,14 @@ body {
   }
   .footer, .hero-img {
     display: none;
+  }
+}
+
+@keyframes scroll {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(4px);
   }
 }
