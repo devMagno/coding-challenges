@@ -66,6 +66,7 @@
       @include device(small) {
         display: block;
         margin: -110px 0 20px -30px;
+        animation: box 1.4s linear 0s infinite alternate;
       }
     }
   }
