@@ -118,3 +118,33 @@ body {
 .header .header-menu ul li + li {
   margin-left: 20px;
 }
+
+.hero {
+  padding: 10px 0 60px 0;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero .hero-img {
+  flex: 1 1 201px;
+  max-width: 500px;
+  padding: 0 10px;
+}
+
+.hero .hero-text {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  padding: 0 10px;
+  margin-right: 30px;
+}
+
+.hero .hero-text span {
+  color: #6C63FF;
+}
