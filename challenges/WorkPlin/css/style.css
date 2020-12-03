@@ -20,3 +20,49 @@ input, button {
 ul, li {
   list-style: none;
 }
+
+body {
+  background: url("../img/drawing.svg") no-repeat;
+  background-position: top 0% right 0%;
+  background-size: 250px;
+}
+
+.header {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+
+.header .logo {
+  padding: 10px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header .logo span {
+  color: #6C63FF;
+}
+
+.header .header-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header .header-menu ul li a {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #000000;
+  padding: 10px;
+}
+
+.header .header-menu ul li + li {
+  margin-left: 20px;
+}
