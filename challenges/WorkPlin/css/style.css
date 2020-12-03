@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap");
+body, h1, ul, li, p, input, form, button {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+input, button {
+  outline: none;
+}
+
+ul, li {
+  list-style: none;
+}
