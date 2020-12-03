@@ -1,0 +1,20 @@
+.footer {
+  padding: 100px calc((100% - 960px) / 2);
+  background-color: $main-purple;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .footer-list li a {
+    @include typo(30);
+    color: $black;
+    padding: 10px;
+  }
+  .footer-list li + li {
+    margin-top: 20px;
+  }
+  .logo {
+    @include typo(64);
+    padding: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
