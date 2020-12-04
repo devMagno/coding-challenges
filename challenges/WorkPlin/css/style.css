@@ -161,10 +161,22 @@ body {
   flex-wrap: wrap;
 }
 
+@media only screen and (max-width: 595px) {
+  .hero {
+    flex-direction: column;
+  }
+}
+
 .hero .hero-img {
   flex: 1 1 201px;
   max-width: 500px;
   padding: 0 10px;
+}
+
+@media only screen and (max-width: 595px) {
+  .hero .hero-img {
+    max-width: 275px;
+  }
 }
 
 .hero .hero-text {
@@ -175,6 +187,15 @@ body {
   text-align: center;
   padding: 0 10px;
   margin-right: 30px;
+}
+
+@media only screen and (max-width: 595px) {
+  .hero .hero-text {
+    order: -1;
+    margin-right: 0;
+    margin-bottom: 20px;
+    font-size: 2.25em;
+  }
 }
 
 .hero .hero-text span {

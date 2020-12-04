@@ -6,10 +6,16 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  @include device(small) {
+    flex-direction: column;
+  }
   .hero-img {
     flex: 1 1 201px;
     max-width: 500px;
     padding: 0 10px;
+    @include device(small) {
+      max-width: 275px;
+    }
   }
   .hero-text {
     @include typo(48);
@@ -17,6 +23,12 @@
     text-align: center;
     padding: 0 10px;
     margin-right: 30px;
+    @include device(small) {
+      order: -1;
+      margin-right: 0;
+      margin-bottom: 20px;
+      font-size: em(36);
+    }
     span {
       color: $main-purple;
     }
