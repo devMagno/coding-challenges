@@ -11,6 +11,10 @@ body {
   align-items: center;
   flex-wrap: wrap;
   padding: 50px 0;
+  @include device(small) {
+    padding: 20px 0;
+    flex-direction: column;
+  }
   .logo  {
     padding: 10px;
     @include typo(48);
@@ -19,10 +23,18 @@ body {
     span {
       color: $main-purple;
     }
+    @include device(small) {
+      font-size: em(36);
+      margin-bottom: 20px;
+    }
   }
   .header-menu ul {
     display: flex;
     flex-wrap: wrap;
+    @include device(small) {
+      flex-direction: column;
+      text-align: center;
+    }
     li a {
       @include typo(24, 300);
       color: $black;
@@ -33,6 +45,10 @@ body {
     }
     li + li {
       margin-left: 20px;
+      @include device(small) {
+        margin-left: 0;
+        margin-top: 20px;
+      }
     }
   }
 }

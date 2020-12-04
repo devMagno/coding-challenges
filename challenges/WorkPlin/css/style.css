@@ -89,6 +89,13 @@ body {
   padding: 50px 0;
 }
 
+@media only screen and (max-width: 595px) {
+  .header {
+    padding: 20px 0;
+    flex-direction: column;
+  }
+}
+
 .header .logo {
   padding: 10px;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
@@ -102,9 +109,23 @@ body {
   color: #6C63FF;
 }
 
+@media only screen and (max-width: 595px) {
+  .header .logo {
+    font-size: 2.25em;
+    margin-bottom: 20px;
+  }
+}
+
 .header .header-menu ul {
   display: flex;
   flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 595px) {
+  .header .header-menu ul {
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .header .header-menu ul li a {
@@ -121,6 +142,13 @@ body {
 
 .header .header-menu ul li + li {
   margin-left: 20px;
+}
+
+@media only screen and (max-width: 595px) {
+  .header .header-menu ul li + li {
+    margin-left: 0;
+    margin-top: 20px;
+  }
 }
 
 .hero {
