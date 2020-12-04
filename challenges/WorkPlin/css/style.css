@@ -208,6 +208,11 @@ body {
   font-size: 1.5em;
   font-weight: 700;
   padding: 17px 35px;
+  transition: transform .2s;
+}
+
+.contact .contact-top .contact-form .contact-input:hover {
+  transform: scale(1.03);
 }
 
 .contact .contact-top .contact-form .contact-input + .contact-input {
@@ -223,8 +228,13 @@ body {
   color: #6C63FF;
   background: #000000;
   border: none;
-  padding: 1px 60px;
+  padding: 5px 60px;
   border-radius: 15px;
+  transition: transform .2s;
+}
+
+.contact .contact-button:hover {
+  transform: scale(1.03);
 }
 
 .footer {
