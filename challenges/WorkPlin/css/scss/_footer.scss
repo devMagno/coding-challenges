@@ -8,6 +8,9 @@
     @include typo(30);
     color: $black;
     padding: 10px;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   .footer-list li + li {
     margin-top: 20px;

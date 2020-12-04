@@ -253,6 +253,10 @@ body {
   padding: 10px;
 }
 
+.footer .footer-list li a:hover {
+  text-decoration: underline;
+}
+
 .footer .footer-list li + li {
   margin-top: 20px;
 }
