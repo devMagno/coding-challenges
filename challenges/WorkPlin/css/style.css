@@ -79,7 +79,7 @@ body {
   background-size: 250px;
 }
 
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 612px) {
   body {
     background-position: top -60px right -30px;
   }
@@ -95,7 +95,7 @@ body {
   padding: 50px 0;
 }
 
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 612px) {
   .header {
     padding: 20px 0;
     flex-direction: column;
@@ -115,7 +115,7 @@ body {
   color: #6C63FF;
 }
 
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 612px) {
   .header .logo {
     font-size: 2.25em;
     margin-bottom: 20px;
@@ -127,7 +127,7 @@ body {
   flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 612px) {
   .header .header-menu ul {
     flex-direction: column;
     text-align: center;
@@ -150,7 +150,7 @@ body {
   margin-left: 20px;
 }
 
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 612px) {
   .header .header-menu ul li + li {
     margin-left: 0;
     margin-top: 20px;
@@ -167,7 +167,7 @@ body {
   flex-wrap: wrap;
 }
 
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 612px) {
   .hero {
     flex-direction: column;
   }
@@ -179,7 +179,7 @@ body {
   padding: 0 10px;
 }
 
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 612px) {
   .hero .hero-img {
     max-width: 275px;
   }
@@ -195,7 +195,7 @@ body {
   margin-right: 30px;
 }
 
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 612px) {
   .hero .hero-text {
     order: -1;
     margin-right: 0;
@@ -215,7 +215,7 @@ body {
   text-align: center;
 }
 
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 612px) {
   .contact {
     padding: 100px 0 150px 0;
   }
@@ -232,7 +232,7 @@ body {
   color: #6C63FF;
 }
 
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 612px) {
   .contact .contact-title {
     font-size: 2.25em;
     margin-bottom: 40px;
@@ -251,7 +251,7 @@ body {
   flex: 1 1 300px;
 }
 
-@media only screen and (min-width: 762px) {
+@media only screen and (min-width: 780px) {
   .contact .contact-top .contact-text {
     padding: 10px;
   }
@@ -272,7 +272,7 @@ body {
   display: none;
 }
 
-@media only screen and (min-width: 762px) {
+@media only screen and (min-width: 780px) {
   .contact .contact-top .contact-text p {
     display: block;
   }
@@ -302,7 +302,7 @@ body {
   transform: scale(1.03);
 }
 
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 612px) {
   .contact .contact-top .contact-form .contact-input {
     font-size: 1.125em;
     padding: 20px;
@@ -313,7 +313,7 @@ body {
   margin-top: 48px;
 }
 
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 612px) {
   .contact .contact-top .contact-form .contact-input + .contact-input {
     margin-top: 25px;
   }
@@ -337,7 +337,7 @@ body {
   transform: scale(1.03);
 }
 
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 612px) {
   .contact .contact-button {
     font-size: 1.5em;
     margin-top: 20px;
@@ -352,7 +352,7 @@ body {
   align-items: center;
 }
 
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 612px) {
   .footer {
     flex-direction: column;
     padding-top: 30px;
@@ -385,7 +385,7 @@ body {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-@media only screen and (max-width: 595px) {
+@media only screen and (max-width: 612px) {
   .footer .logo {
     font-size: 3em;
     order: -1;

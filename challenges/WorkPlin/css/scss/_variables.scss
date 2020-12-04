@@ -17,17 +17,17 @@ $main-purple: #6C63FF;
 
 @mixin device($size) {
   @if $size == large {
-    @media only screen and (min-width: 762px) {
+    @media only screen and (min-width: 780px) {
       @content;
     }
   }
   @else if $size == medium {
-    @media only screen and (max-width: 762px) and (min-width: 595px) {
+    @media only screen and (max-width: 780px) and (min-width: 612px) {
       @content;
     }
   }
   @else if $size == small {
-    @media only screen and (max-width: 595px) {
+    @media only screen and (max-width: 612px) {
       @content;
     }
   }
