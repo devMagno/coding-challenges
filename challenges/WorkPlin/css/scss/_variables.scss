@@ -14,3 +14,16 @@ $main-purple: #6C63FF;
   font-size: em($size);
   font-weight: $weight;
 }
+
+@mixin device($size) {
+  @if $size == medium {
+    @media only screen and (max-width: 762px) and (min-width: 595px) {
+      @content;
+    }
+  }
+  @else if $size == small {
+    @media only screen and (max-width: 595px) {
+      @content;
+    }
+  }
+}
