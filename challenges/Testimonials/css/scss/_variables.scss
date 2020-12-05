@@ -8,3 +8,7 @@ $white: hsl(0, 0%, 100%);
 
 $light-gray: hsl(0, 0%, 81%);
 $grayish-blue: hsl(210, 46%, 95%);
+
+@function em($pixels, $context: 16) {
+  @return $pixels / $context + em;
+}
