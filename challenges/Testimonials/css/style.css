@@ -125,27 +125,32 @@ table {
 }
 
 .container .grid .card.daniel {
-  grid-column: span 2;
+  grid-area: 1 / 1 / 2 / 3;
   background: url("../img/bg-pattern-quotation.svg") no-repeat top 0% right 18%;
   background-color: #7541c8;
 }
 
 .container .grid .card.jonathan {
   background-color: #48556a;
+  grid-area: 1 / 3 / 2 / 4;
+}
+
 }
 
 .container .grid .card.kira {
-  grid-row: span 2;
+  grid-area: 1 / 4 / 3 / 5;
   background-color: white;
   color: #48556a;
 }
 
 .container .grid .card.jeanette {
+  grid-area: 2 / 1 / 3 / 2;
   background-color: white;
   color: #48556a;
 }
 
 .container .grid .card.patrick {
+  grid-area: 2 / 2 / 3 / 4;
   grid-column: span 2;
   background-color: #19212e;
 }
