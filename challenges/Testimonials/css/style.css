@@ -160,6 +160,7 @@ table {
   .container .grid .card.daniel {
     grid-area: auto;
     background-position: top 0% right 3%;
+    order: 1;
   }
 }
 
@@ -171,6 +172,7 @@ table {
 @media only screen and (max-width: 915px) {
   .container .grid .card.jonathan {
     grid-area: auto;
+    order: 2;
   }
 }
 
@@ -183,6 +185,7 @@ table {
 @media only screen and (max-width: 915px) {
   .container .grid .card.kira {
     grid-area: auto;
+    order: 5;
   }
 }
 
@@ -195,6 +198,7 @@ table {
 @media only screen and (max-width: 915px) {
   .container .grid .card.jeanette {
     grid-area: auto;
+    order: 3;
   }
 }
 
@@ -207,5 +211,6 @@ table {
 @media only screen and (max-width: 915px) {
   .container .grid .card.patrick {
     grid-area: auto;
+    order: 4;
   }
 }

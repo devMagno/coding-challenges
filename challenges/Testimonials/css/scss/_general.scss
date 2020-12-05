@@ -71,6 +71,7 @@
         @include device(small) {
           grid-area: auto;
           background-position: top 0% right 3%;
+          order: 1;
         }
       }
       &.jonathan {
@@ -78,6 +79,7 @@
         grid-area: 1 / 3 / 2 / 4;
         @include device(small) {
           grid-area: auto;
+          order: 2;
         }
       }
       &.kira {
@@ -86,6 +88,7 @@
         color: $dark-blue;
         @include device(small) {
           grid-area: auto;
+          order: 5;
         }
       }
       &.jeanette {
@@ -94,6 +97,7 @@
         color: $dark-blue;
         @include device(small) {
           grid-area: auto;
+          order: 3;
         }
       }
       &.patrick {
@@ -102,6 +106,7 @@
         background-color: $darker-blue;
         @include device(small) {
           grid-area: auto;
+          order: 4;
         }
       }
     }
