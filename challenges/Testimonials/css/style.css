@@ -100,7 +100,7 @@ table {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 2px 5px 15px -2px #cfcfcf;
-  color: #cfcfcf;
+  color: white;
   transition: transform .2s, box-shadow .2s;
 }
 
