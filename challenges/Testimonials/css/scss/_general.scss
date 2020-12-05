@@ -36,6 +36,18 @@
           }
         }
       }
+      .card-body {
+        h1 {
+          @include typo(20, 600);
+          margin: 10px 0 20px 0;
+          line-height: 1.2;
+        }
+        p {
+          @include typo(13, 500);
+          opacity: 70%;
+          line-height: 1.5;
+        }
+      }
       &.daniel {
         grid-column: span 2;
         background: url('../img/bg-pattern-quotation.svg') no-repeat top 0% right 18%;
