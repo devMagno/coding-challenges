@@ -101,11 +101,12 @@ table {
   border-radius: 10px;
   box-shadow: 2px 5px 15px -2px #cfcfcf;
   color: #cfcfcf;
-  transition: transform .2s;
+  transition: transform .2s, box-shadow .2s;
 }
 
 .container .grid .card:hover {
   transform: scale(1.02);
+  box-shadow: 5px 7px 15px 2px #cfcfcf;
 }
 
 .container .grid .card .card-top {

@@ -29,9 +29,10 @@
       border-radius: 10px;
       box-shadow: 2px 5px 15px -2px $light-gray;
       color: $light-gray;
-      transition: transform .2s;
+      transition: transform .2s, box-shadow .2s;
       &:hover {
         transform: scale(1.02);
+        box-shadow: 5px 7px 15px 2px $light-gray;
       }
       .card-top {
         display: flex;
