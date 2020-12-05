@@ -18,3 +18,16 @@ $grayish-blue: hsl(210, 46%, 95%);
   font-size: em($size);
   font-weight: $weight;
 }
+
+@mixin device($size) {
+  @if $size == medium {
+    @media only screen and (max-width: 960px) {
+      @content;
+    }
+  }
+  @else if $size == small {
+    @media only screen and (max-width: 915px) {
+      @content;
+    }
+  }
+}
