@@ -16,8 +16,29 @@
       padding: 30px;
       border-radius: 10px;
       box-shadow: 2px 5px 15px -2px $light-gray;
+      color: $light-gray;
+      .card-top {
+        display: flex;
+        align-items: center;
+        .img {
+          max-width: 30px;
+          img {
+            border-radius: 50%;
+            border: 3px solid rgba(255, 255, 255, 0.26);
+          } 
+        } 
+        .info {
+          @include typo(13, 600);
+          margin-left: 20px;
+          p {
+            margin-top: 5px;
+            opacity: 50%;
+          }
+        }
+      }
       &.daniel {
         grid-column: span 2;
+        background: url('../img/bg-pattern-quotation.svg') no-repeat top 0% right 18%;
         background-color: $violet;
       }
       &.jonathan {
@@ -26,9 +47,11 @@
       &.kira {
         grid-row: span 2;
         background-color: white;
+        color: $dark-blue;
       }
       &.jeanette {
         background-color: white;
+        color: $dark-blue;
       }
       &.patrick {
         grid-column: span 2;

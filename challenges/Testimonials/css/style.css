@@ -79,10 +79,38 @@ table {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 2px 5px 15px -2px #cfcfcf;
+  color: #cfcfcf;
+}
+
+.container .grid .card .card-top {
+  display: flex;
+  align-items: center;
+}
+
+.container .grid .card .card-top .img {
+  max-width: 30px;
+}
+
+.container .grid .card .card-top .img img {
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.26);
+}
+
+.container .grid .card .card-top .info {
+  font-family: "Barlow Semi Condensed", Arial, Helvetica, sans-serif;
+  font-size: 0.8125em;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.container .grid .card .card-top .info p {
+  margin-top: 5px;
+  opacity: 50%;
 }
 
 .container .grid .card.daniel {
   grid-column: span 2;
+  background: url("../img/bg-pattern-quotation.svg") no-repeat top 0% right 18%;
   background-color: #7541c8;
 }
 
@@ -93,10 +121,12 @@ table {
 .container .grid .card.kira {
   grid-row: span 2;
   background-color: white;
+  color: #48556a;
 }
 
 .container .grid .card.jeanette {
   background-color: white;
+  color: #48556a;
 }
 
 .container .grid .card.patrick {
