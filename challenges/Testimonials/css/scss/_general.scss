@@ -1,0 +1,39 @@
+.container {
+  min-width: 100vw;
+  background-color: $grayish-blue;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  .grid {
+    padding: 10px;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    grid-auto-flow: dense;
+    .card {
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 2px 5px 15px -2px $light-gray;
+      &.daniel {
+        grid-column: span 2;
+        background-color: $violet;
+      }
+      &.jonathan {
+        background-color: $dark-blue;
+      }
+      &.kira {
+        grid-row: span 2;
+        background-color: white;
+      }
+      &.jeanette {
+        background-color: white;
+      }
+      &.patrick {
+        grid-column: span 2;
+        background-color: $darker-blue;
+      }
+    }
+  }
+}

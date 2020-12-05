@@ -56,3 +56,50 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+.container {
+  min-width: 100vw;
+  background-color: #ecf2f8;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.container .grid {
+  padding: 10px;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  grid-auto-flow: dense;
+}
+
+.container .grid .card {
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 15px -2px #cfcfcf;
+}
+
+.container .grid .card.daniel {
+  grid-column: span 2;
+  background-color: #7541c8;
+}
+
+.container .grid .card.jonathan {
+  background-color: #48556a;
+}
+
+.container .grid .card.kira {
+  grid-row: span 2;
+  background-color: white;
+}
+
+.container .grid .card.jeanette {
+  background-color: white;
+}
+
+.container .grid .card.patrick {
+  grid-column: span 2;
+  background-color: #19212e;
+}
