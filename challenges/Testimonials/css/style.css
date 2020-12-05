@@ -64,13 +64,6 @@ table {
   align-items: center;
 }
 
-@media only screen and (max-width: 915px) {
-  .container {
-    min-width: auto;
-    min-height: auto;
-  }
-}
-
 .container .grid {
   padding: 30px 50px;
   max-width: 1100px;
@@ -81,13 +74,14 @@ table {
   grid-auto-flow: dense;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1006px) {
   .container .grid {
-    gap: 15px;
+    padding: 40px 20px;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
-@media only screen and (max-width: 915px) {
+@media only screen and (max-width: 500px) {
   .container .grid {
     grid-template-columns: 1fr;
     gap: 30px;
@@ -96,7 +90,7 @@ table {
 }
 
 .container .grid .card {
-  padding: 30px;
+  padding: 20px;
   border-radius: 10px;
   box-shadow: 2px 5px 15px -2px #cfcfcf;
   color: white;
@@ -156,7 +150,14 @@ table {
   background-color: #7541c8;
 }
 
-@media only screen and (max-width: 915px) {
+@media only screen and (max-width: 1006px) {
+  .container .grid .card.daniel {
+    grid-area: 1 / 1 / 2 / 3;
+    background-position: top 0% right 5%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   .container .grid .card.daniel {
     grid-area: auto;
     background-position: top 0% right 3%;
@@ -169,7 +170,13 @@ table {
   grid-area: 1 / 3 / 2 / 4;
 }
 
-@media only screen and (max-width: 915px) {
+@media only screen and (max-width: 1006px) {
+  .container .grid .card.jonathan {
+    grid-area: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   .container .grid .card.jonathan {
     grid-area: auto;
     order: 2;
@@ -182,7 +189,13 @@ table {
   color: #48556a;
 }
 
-@media only screen and (max-width: 915px) {
+@media only screen and (max-width: 1006px) {
+  .container .grid .card.kira {
+    grid-area: 2 / 2 / 4 / 3;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   .container .grid .card.kira {
     grid-area: auto;
     order: 5;
@@ -195,7 +208,13 @@ table {
   color: #48556a;
 }
 
-@media only screen and (max-width: 915px) {
+@media only screen and (max-width: 1006px) {
+  .container .grid .card.jeanette {
+    grid-area: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   .container .grid .card.jeanette {
     grid-area: auto;
     order: 3;
@@ -208,7 +227,14 @@ table {
   background-color: #19212e;
 }
 
-@media only screen and (max-width: 915px) {
+@media only screen and (max-width: 1006px) {
+  .container .grid .card.patrick {
+    grid-area: auto;
+    grid-column: 1 / 3;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   .container .grid .card.patrick {
     grid-area: auto;
     order: 4;
