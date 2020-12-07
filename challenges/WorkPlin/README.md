@@ -4,6 +4,7 @@
 </p>
 
 ## 📖 Sobre   
+**Work Plin** é um site _single page_ de locação de co-work online criado como um desafio por **[Lucas Bomfim](https://github.com/lubomfim)** para o **[DevChallenge](https://www.devchallenge.com.br/)**. O projeto foi desenvolvido utilizando **SASS** como pré-processador de CSS e **flexbox** que, juntamente com _media queries_, garante a **responsividade** da página.
 
 ---
 
