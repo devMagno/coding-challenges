@@ -15,3 +15,18 @@ $blue: hsl(198, 60%, 50%);
 $light-red: hsl(0, 100%, 63%);
 
 $white: hsl(0, 0%, 100%);
+
+@function em($pixels, $context: 16) {
+  @return $pixels / $context + em;
+}
+
+@mixin typo-1($size, $weight) {
+  font-family: $font-1;
+  font-size: em($size);
+  font-weight: $weight;
+}
+@mixin typo-2($size, $weight) {
+  font-family: $font-2;
+  font-size: em($size);
+  font-weight: $weight;
+}
