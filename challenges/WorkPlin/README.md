@@ -12,6 +12,9 @@
 ---
 
 ## 🖥️ Demonstração
+[![WorkPlin](https://i.imgur.com/ayVjzI1.jpg "Clique para acessar o desafio")](https://devmagno.github.io/coding-challenges/challenges/WorkPlin/index.html "Clique para acessar o desafio")   
+
+Você pode acessar o desafio clicando [aqui](https://devmagno.github.io/coding-challenges/challenges/WorkPlin/index.html).
 
 ---
 
