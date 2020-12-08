@@ -5,16 +5,25 @@
   align-items: center;
   .productivity-img {
     margin-bottom: 40px;
+    @include device(medium) {
+      margin-bottom: 50px;
+    }
   }
   .productivity-text {
     h1 {
       @include typo-1(20, 700);
       margin-bottom: 20px;
+      @include device(medium) {
+        font-size: em(24);
+      }
     }
     p {
       @include typo-2(16, 400);
       line-height: 1.5;
       margin-bottom: 20px;
+      @include device(medium) {
+        font-size: em(18);
+      }
     }
     a {
       @include typo-2(16, 400);
@@ -29,10 +38,19 @@
       &:hover {
         color: $white;
       }
+      @include device(medium) {
+        font-size: em(18);
+      }
       img {
         margin-left: 8px;
         display: inline-block;
       }
     } 
+  }
+  @include device(medium) {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 }
