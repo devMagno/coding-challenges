@@ -86,6 +86,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .header .logo {
@@ -95,8 +96,8 @@ body {
 
 .header nav ul {
   display: flex;
-  flex-wrap: wrap;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 .header nav ul li a {
