@@ -160,11 +160,23 @@ body {
   text-align: center;
 }
 
+@media only screen and (min-width: 768px) {
+  .hero .hero-text {
+    max-width: 700px;
+  }
+}
+
 .hero .hero-text h1 {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-size: 1.5em;
   font-weight: 700;
   line-height: 1.5;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero .hero-text h1 {
+    font-size: 1.875em;
+  }
 }
 
 .hero .hero-text h2 {
@@ -173,6 +185,22 @@ body {
   font-weight: 400;
   line-height: 1.5;
   margin: 15px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero .hero-text h2 {
+    font-size: 1.125em;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px calc((100% - 800px) / 2);
+  }
 }
 
 .benefits {
