@@ -8,6 +8,12 @@
   top: -240px;
   padding: 0 20px;
   align-self: center;
+  @include device(medium) {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
   .contact-card {
     background-color: $dark-blue1;
     padding: 30px;
@@ -17,11 +23,17 @@
     h1 {
       @include typo-1(20, 700);
       margin-bottom: 20px;
+      @include device(medium) {
+        font-size: em(24);
+      }
     }
     p {
       @include typo-2(14, 400);
       line-height: 1.5;
       margin-bottom: 40px;
+      @include device(medium) {
+        font-size: em(16);
+      }
     }
     form {
       display: flex;
@@ -37,7 +49,10 @@
         padding: 15px 23px;
         border-radius: 100px;
         outline: none;
-        border: none;      
+        border: none;
+        @include device(medium) {
+          font-size: em(16);
+        }      
       }
     }
   }

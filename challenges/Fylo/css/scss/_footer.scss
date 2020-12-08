@@ -5,6 +5,9 @@
   padding: 200px 20px 40px 20px;
   @include typo-2(16, 400);
   line-height: 1.5;
+  @include device(medium) {
+    font-size: em(18);
+  }
   .logo {
     margin-left: 10px;
   }

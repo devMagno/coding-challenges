@@ -440,6 +440,15 @@ body {
   align-self: center;
 }
 
+@media only screen and (min-width: 768px) {
+  .contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
 .contact .contact-card {
   background-color: #1c2431;
   padding: 30px;
@@ -455,12 +464,24 @@ body {
   margin-bottom: 20px;
 }
 
+@media only screen and (min-width: 768px) {
+  .contact .contact-card h1 {
+    font-size: 1.5em;
+  }
+}
+
 .contact .contact-card p {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 0.875em;
   font-weight: 400;
   line-height: 1.5;
   margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact .contact-card p {
+    font-size: 1em;
+  }
 }
 
 .contact .contact-card form {
@@ -485,6 +506,12 @@ body {
   border: none;
 }
 
+@media only screen and (min-width: 768px) {
+  .contact .contact-card form input {
+    font-size: 1em;
+  }
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -494,6 +521,12 @@ body {
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    font-size: 1.125em;
+  }
 }
 
 .footer .logo {
