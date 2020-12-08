@@ -1,0 +1,22 @@
+.benefits {
+  padding: 100px 20px;
+  .benefits-item {
+    & + .benefits-item {
+      margin-top: 50px;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .benefits-text {
+      h3 {
+        @include typo-1(20, 700);
+        margin: 20px 0 10px 0;
+      }
+      p {
+        @include typo-2(16, 400);
+        line-height: 1.5;
+      }
+    }
+  }
+}
