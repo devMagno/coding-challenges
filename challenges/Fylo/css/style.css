@@ -444,6 +444,27 @@ body {
   background-size: 40px;
 }
 
+@media only screen and (min-width: 768px) {
+  .quotes {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-size: 50px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .quotes {
+    max-width: 1200px;
+    background-size: 60px;
+    background-position: top 10px left 10px;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 .quotes .quote-card {
   background-color: #202a3c;
   border-radius: 8px;
@@ -458,6 +479,13 @@ body {
 @media only screen and (min-width: 768px) {
   .quotes .quote-card + .quote-card {
     margin-top: 45px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .quotes .quote-card + .quote-card {
+    margin-top: 0;
+    margin-left: 30px;
   }
 }
 
@@ -516,16 +544,6 @@ body {
 @media only screen and (min-width: 768px) {
   .quotes .quote-card cite p span {
     font-size: 0.77778em;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .quotes {
-    max-width: 800px;
-    margin: 0 auto;
-    padding-left: 60px;
-    padding-right: 60px;
-    background-size: 50px;
   }
 }
 

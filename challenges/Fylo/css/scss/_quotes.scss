@@ -5,6 +5,21 @@
   padding: 50px 30px 350px 30px;
   background: url('../img/bg-quotes.png') no-repeat top 20px left 20px;
   background-size: 40px;
+  @include device(medium) {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-size: 50px;
+  }
+  @include device(large) {
+    max-width: 1200px;
+    background-size: 60px;
+    background-position: top 10px left 10px;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .quote-card {
     background-color: $dark-blue4;
     border-radius: 8px;
@@ -14,6 +29,10 @@
       margin-top: 30px;
       @include device(medium) {
         margin-top: 45px;
+      }
+      @include device(large) {
+        margin-top: 0;
+        margin-left: 30px;
       }
     }
     > p {
@@ -53,12 +72,5 @@
         }
       }
     }
-  }
-  @include device(medium) {
-    max-width: 800px;
-    margin: 0 auto;
-    padding-left: 60px;
-    padding-right: 60px;
-    background-size: 50px;
   }
 }
