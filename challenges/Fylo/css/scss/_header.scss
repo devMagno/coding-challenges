@@ -8,6 +8,9 @@
   .logo {
     padding: 10px 20px;
     max-width: 100px;
+    @include device(medium) {
+      max-width: 150px;
+    }
   }
   nav ul {
     display: flex;
@@ -23,6 +26,14 @@
         font-weight: 700;
         text-decoration: underline;
       }
+      @include device(medium) {
+        font-size: em(18);
+      }
     }
+  }
+  @include device(medium) {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px calc((100% - 800px) / 2);
   }
 }

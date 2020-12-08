@@ -100,6 +100,12 @@ body {
   max-width: 100px;
 }
 
+@media only screen and (min-width: 768px) {
+  .header .logo {
+    max-width: 150px;
+  }
+}
+
 .header nav ul {
   display: flex;
   margin-right: 10px;
@@ -119,6 +125,20 @@ body {
 .header nav ul li a:hover {
   font-weight: 700;
   text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+  .header nav ul li a {
+    font-size: 1.125em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px calc((100% - 800px) / 2);
+  }
 }
 
 .hero {
