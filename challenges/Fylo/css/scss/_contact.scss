@@ -1,0 +1,44 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.contact {
+  position: absolute;
+  top: -240px;
+  padding: 0 20px;
+  align-self: center;
+  .contact-card {
+    background-color: $dark-blue1;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    h1 {
+      @include typo-1(20, 700);
+      margin-bottom: 20px;
+    }
+    p {
+      @include typo-2(14, 400);
+      line-height: 1.5;
+      margin-bottom: 40px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      label {
+        display: none;
+      }
+      input {
+        @include typo-2(14, 400);
+        color: rgba(black, $alpha: 0.8);
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        padding: 15px 23px;
+        border-radius: 100px;
+        outline: none;
+        border: none;      
+      }
+    }
+  }
+}
