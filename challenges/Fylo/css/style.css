@@ -91,3 +91,8 @@ body {
   color: white;
   text-decoration: none;
 }
+
+.header nav ul li a:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}

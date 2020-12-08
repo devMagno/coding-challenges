@@ -1,0 +1,27 @@
+.header {
+  padding: 30px 0;
+  background-color: $dark-blue1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo {
+    padding: 10px 20px;
+    max-width: 100px;
+  }
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    li a {
+      display: inline-block;
+      padding: 10px;
+      @include typo-1(14, 400);
+      color: $white;
+      text-decoration: none;
+      &:hover {
+        font-weight: 700;
+        text-decoration: underline;
+      }
+    }
+  }
+}
