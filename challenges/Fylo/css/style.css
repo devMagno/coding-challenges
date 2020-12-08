@@ -177,3 +177,47 @@ body {
   font-weight: 400;
   line-height: 1.5;
 }
+
+.productivity {
+  padding: 0 20px 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productivity .productivity-img {
+  margin-bottom: 40px;
+}
+
+.productivity .productivity-text h1 {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.productivity .productivity-text p {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.productivity .productivity-text a {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #65e2d9;
+  padding-bottom: 10px;
+  border-bottom: 1px solid currentColor;
+  max-width: fit-content;
+}
+
+.productivity .productivity-text a img {
+  margin-left: 8px;
+  display: inline-block;
+}

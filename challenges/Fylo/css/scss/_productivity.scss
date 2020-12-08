@@ -1,0 +1,34 @@
+.productivity {
+  padding: 0 20px 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .productivity-img {
+    margin-bottom: 40px;
+  }
+  .productivity-text {
+    h1 {
+      @include typo-1(20, 700);
+      margin-bottom: 20px;
+    }
+    p {
+      @include typo-2(16, 400);
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+    a {
+      @include typo-2(16, 400);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      color: $cyan;
+      padding-bottom: 10px;
+      border-bottom: 1px solid currentColor;
+      max-width: fit-content;
+      img {
+        margin-left: 8px;
+        display: inline-block;
+      }
+    } 
+  }
+}
