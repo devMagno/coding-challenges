@@ -65,15 +65,19 @@ body {
 }
 
 .btn {
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-size: 1em;
   font-weight: 700;
   color: white;
   text-decoration: none;
+  box-sizing: border-box;
   display: inline-block;
-  padding: 15px;
-  background: linear-gradient(135deg, #65e2d9 0%, #339ecc 100%);
+  padding: 15px 50px;
+  background: linear-gradient(135deg, #65e2d9 0%, #339ecc 50%);
   border-radius: 100px;
+  border: none;
+  outline: none;
+  transition: transform .2s;
 }
 
 .header {

@@ -2,3 +2,16 @@ body {
   background-color: $dark-blue2;
   color: $white;
 }
+.btn {
+  @include typo-1(16, 700);
+  color: $white;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 15px 50px;
+  background: linear-gradient(135deg, $cyan 0%, $blue 50%);
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  transition: transform .2s;
+}
