@@ -274,3 +274,91 @@ body {
   font-size: 0.71429em;
   opacity: 80%;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #0b1523;
+  padding: 150px 20px 40px 20px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.footer .logo {
+  margin-left: 10px;
+}
+
+.footer .location {
+  margin: 30px 0 20px 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer .location img {
+  margin-top: 8px;
+  width: 18px;
+}
+
+.footer .location p {
+  margin-left: 10px;
+}
+
+.footer .contact-list li {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+
+.footer .contact-list li img {
+  margin-top: 5px;
+  width: 18px;
+}
+
+.footer .contact-list li p {
+  margin-left: 10px;
+}
+
+.footer .contact-list li p a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer .nav-list {
+  margin-top: 50px;
+}
+
+.footer .nav-list + .nav-list {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.footer .nav-list li + li {
+  margin-top: 8px;
+}
+
+.footer .nav-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer .social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.footer .social-list li a {
+  font-size: 1.25em;
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
