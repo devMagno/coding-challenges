@@ -106,6 +106,12 @@ body {
   }
 }
 
+@media only screen and (min-width: 992px) {
+  .header .logo {
+    max-width: inherit;
+  }
+}
+
 .header nav ul {
   display: flex;
   margin-right: 10px;
@@ -123,7 +129,6 @@ body {
 }
 
 .header nav ul li a:hover {
-  font-weight: 700;
   text-decoration: underline;
 }
 
@@ -133,11 +138,40 @@ body {
   }
 }
 
+@media only screen and (min-width: 992px) {
+  .header nav ul li a {
+    font-size: 1.25em;
+  }
+}
+
+.header nav ul li + li {
+  margin-left: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .header nav ul li + li {
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .header nav ul li + li {
+    margin-left: 40px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .header {
     max-width: 800px;
     margin: 0 auto;
     padding: 30px calc((100% - 800px) / 2);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .header {
+    max-width: 1300px;
+    padding: 50px calc((100% - 1300px) / 2);
   }
 }
 
