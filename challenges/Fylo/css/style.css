@@ -215,6 +215,11 @@ body {
   padding-bottom: 10px;
   border-bottom: 1px solid currentColor;
   max-width: fit-content;
+  transition: color .2s;
+}
+
+.productivity .productivity-text a:hover {
+  color: white;
 }
 
 .productivity .productivity-text a img {
