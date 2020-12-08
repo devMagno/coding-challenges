@@ -569,12 +569,24 @@ body {
   }
 }
 
+@media only screen and (min-width: 992px) {
+  .contact {
+    top: -200px;
+  }
+}
+
 .contact .contact-card {
   background-color: #1c2431;
   padding: 30px;
   border-radius: 8px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+}
+
+@media only screen and (min-width: 992px) {
+  .contact .contact-card {
+    padding: 50px;
+  }
 }
 
 .contact .contact-card h1 {
@@ -587,6 +599,12 @@ body {
 @media only screen and (min-width: 768px) {
   .contact .contact-card h1 {
     font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .contact .contact-card h1 {
+    font-size: 1.875em;
   }
 }
 
@@ -609,6 +627,12 @@ body {
   flex-direction: column;
 }
 
+@media only screen and (min-width: 992px) {
+  .contact .contact-card form {
+    flex-direction: row;
+  }
+}
+
 .contact .contact-card form label {
   display: none;
 }
@@ -624,12 +648,24 @@ body {
   border-radius: 100px;
   outline: none;
   border: none;
+  flex: 1;
 }
 
 @media only screen and (min-width: 768px) {
   .contact .contact-card form input {
     font-size: 1em;
   }
+}
+
+@media only screen and (min-width: 992px) {
+  .contact .contact-card form input {
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+}
+
+.contact .contact-card form .btn {
+  padding: 15px 23px;
 }
 
 .footer {

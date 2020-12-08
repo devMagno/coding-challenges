@@ -14,17 +14,26 @@
     padding-left: 40px;
     padding-right: 40px;
   }
+  @include device(large) {
+    top: -200px;
+  }
   .contact-card {
     background-color: $dark-blue1;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    @include device(large) {
+      padding: 50px;
+    }
     h1 {
       @include typo-1(20, 700);
       margin-bottom: 20px;
       @include device(medium) {
         font-size: em(24);
+      }
+      @include device(large) {
+        font-size: em(30);
       }
     }
     p {
@@ -38,6 +47,9 @@
     form {
       display: flex;
       flex-direction: column;
+      @include device(large) {
+        flex-direction: row;
+      }
       label {
         display: none;
       }
@@ -50,9 +62,17 @@
         border-radius: 100px;
         outline: none;
         border: none;
+        flex: 1;
         @include device(medium) {
           font-size: em(16);
-        }      
+        }
+        @include device(large) {
+          margin-bottom: 0;
+          margin-right: 20px;
+        }
+      }
+      .btn {
+        padding: 15px 23px;
       }
     }
   }
