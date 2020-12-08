@@ -353,12 +353,25 @@ body {
   margin-top: 30px;
 }
 
+@media only screen and (min-width: 768px) {
+  .quotes .quote-card + .quote-card {
+    margin-top: 45px;
+  }
+}
+
 .quotes .quote-card > p {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 0.875em;
   font-weight: 400;
   line-height: 1.5;
   margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 768px) {
+  .quotes .quote-card > p {
+    font-size: 1.125em;
+    margin-bottom: 30px;
+  }
 }
 
 .quotes .quote-card cite {
@@ -371,11 +384,23 @@ body {
   width: 40px;
 }
 
+@media only screen and (min-width: 768px) {
+  .quotes .quote-card cite img {
+    width: 50px;
+  }
+}
+
 .quotes .quote-card cite p {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 0.875em;
   font-weight: 700;
   margin-left: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .quotes .quote-card cite p {
+    font-size: 1.125em;
+  }
 }
 
 .quotes .quote-card cite p span {
@@ -384,6 +409,22 @@ body {
   font-weight: 400;
   font-size: 0.71429em;
   opacity: 80%;
+}
+
+@media only screen and (min-width: 768px) {
+  .quotes .quote-card cite p span {
+    font-size: 0.77778em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .quotes {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-size: 50px;
+  }
 }
 
 .wrapper {

@@ -12,11 +12,18 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
     & + .quote-card {
       margin-top: 30px;
+      @include device(medium) {
+        margin-top: 45px;
+      }
     }
     > p {
       @include typo-2(14, 400);
       line-height: 1.5;
       margin-bottom: 25px;
+      @include device(medium) {
+        font-size: em(18);
+        margin-bottom: 30px;
+      }
     }
     cite {
       display: flex;
@@ -24,18 +31,34 @@
       img {
         border-radius: 50%;
         width: 40px;
+        @include device(medium) {
+          width: 50px;
+        }
       }
       p {
         @include typo-2(14, 700);
         margin-left: 15px;
+        @include device(medium) {
+          font-size: em(18);
+        }
         span {
           margin-top: 10px;
           display: block;
           font-weight: 400;
           font-size: em(10, 14);
           opacity: 80%;
+          @include device(medium) {
+            font-size: em(14, 18);
+          }
         }
       }
     }
+  }
+  @include device(medium) {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-size: 50px;
   }
 }
