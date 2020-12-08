@@ -12,11 +12,21 @@
       h3 {
         @include typo-1(20, 700);
         margin: 20px 0 10px 0;
+        @include device(medium) {
+          font-size: em(24);
+        }
       }
       p {
         @include typo-2(16, 400);
         line-height: 1.5;
+        @include device(medium) {
+          font-size: em(18);
+        }
       }
     }
+  }
+  @include device(medium) {
+    margin: 0 auto;
+    max-width: 550px;
   }
 }

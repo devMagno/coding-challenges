@@ -225,11 +225,30 @@ body {
   margin: 20px 0 10px 0;
 }
 
+@media only screen and (min-width: 768px) {
+  .benefits .benefits-item .benefits-text h3 {
+    font-size: 1.5em;
+  }
+}
+
 .benefits .benefits-item .benefits-text p {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5;
+}
+
+@media only screen and (min-width: 768px) {
+  .benefits .benefits-item .benefits-text p {
+    font-size: 1.125em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .benefits {
+    margin: 0 auto;
+    max-width: 550px;
+  }
 }
 
 .productivity {
