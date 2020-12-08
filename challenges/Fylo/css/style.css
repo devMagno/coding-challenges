@@ -320,6 +320,25 @@ body {
   align-items: center;
 }
 
+@media only screen and (min-width: 768px) {
+  .productivity {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .productivity {
+    flex-direction: row;
+    max-width: 1200px;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+}
+
 .productivity .productivity-img {
   margin-bottom: 40px;
 }
@@ -330,16 +349,40 @@ body {
   }
 }
 
+@media only screen and (min-width: 992px) {
+  .productivity .productivity-img {
+    margin-bottom: 0;
+    margin-right: 40px;
+    flex: 1 1;
+    max-width: 600px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .productivity .productivity-text {
+    flex: 1 1;
+  }
+}
+
 .productivity .productivity-text h1 {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-size: 1.25em;
   font-weight: 700;
+  line-height: 1.5;
   margin-bottom: 20px;
+  max-width: 300px;
 }
 
 @media only screen and (min-width: 768px) {
   .productivity .productivity-text h1 {
     font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .productivity .productivity-text h1 {
+    font-size: 2.25em;
+    margin-bottom: 20px;
   }
 }
 
@@ -354,6 +397,12 @@ body {
 @media only screen and (min-width: 768px) {
   .productivity .productivity-text p {
     font-size: 1.125em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .productivity .productivity-text p {
+    margin-bottom: 30px;
   }
 }
 
@@ -384,15 +433,6 @@ body {
 .productivity .productivity-text a img {
   margin-left: 8px;
   display: inline-block;
-}
-
-@media only screen and (min-width: 768px) {
-  .productivity {
-    max-width: 800px;
-    margin: 0 auto;
-    padding-left: 60px;
-    padding-right: 60px;
-  }
 }
 
 .quotes {
