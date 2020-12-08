@@ -221,3 +221,56 @@ body {
   margin-left: 8px;
   display: inline-block;
 }
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 30px 100px 30px;
+  background: url("../img/bg-quotes.png") no-repeat top 20px left 20px;
+  background-size: 40px;
+}
+
+.quotes .quote-card {
+  background-color: #202a3c;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quotes .quote-card + .quote-card {
+  margin-top: 30px;
+}
+
+.quotes .quote-card > p {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 0.875em;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.quotes .quote-card cite {
+  display: flex;
+  align-items: center;
+}
+
+.quotes .quote-card cite img {
+  border-radius: 50%;
+  width: 40px;
+}
+
+.quotes .quote-card cite p {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 0.875em;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.quotes .quote-card cite p span {
+  margin-top: 10px;
+  display: block;
+  font-weight: 400;
+  font-size: 0.71429em;
+  opacity: 80%;
+}

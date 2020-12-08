@@ -1,0 +1,41 @@
+.quotes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 30px 100px 30px;
+  background: url('../img/bg-quotes.png') no-repeat top 20px left 20px;
+  background-size: 40px;
+  .quote-card {
+    background-color: $dark-blue4;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    & + .quote-card {
+      margin-top: 30px;
+    }
+    > p {
+      @include typo-2(14, 400);
+      line-height: 1.5;
+      margin-bottom: 25px;
+    }
+    cite {
+      display: flex;
+      align-items: center;
+      img {
+        border-radius: 50%;
+        width: 40px;
+      }
+      p {
+        @include typo-2(14, 700);
+        margin-left: 15px;
+        span {
+          margin-top: 10px;
+          display: block;
+          font-weight: 400;
+          font-size: em(10, 14);
+          opacity: 80%;
+        }
+      }
+    }
+  }
+}
