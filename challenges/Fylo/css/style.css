@@ -186,6 +186,24 @@ body {
   padding: 10px 30px;
 }
 
+@media only screen and (min-width: 768px) {
+  .hero {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px calc((100% - 800px) / 2);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .hero {
+    max-width: 1100px;
+    padding: 10px calc((100% - 1100px) / 2);
+    background-image: url("../img/bg-curvy-desktop.svg");
+    background-size: contain;
+    background-position: bottom -10px center;
+  }
+}
+
 .hero .hero-img {
   margin-bottom: 20px;
 }
@@ -200,6 +218,12 @@ body {
   }
 }
 
+@media only screen and (min-width: 992px) {
+  .hero .hero-text {
+    max-width: 600px;
+  }
+}
+
 .hero .hero-text h1 {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-size: 1.5em;
@@ -210,6 +234,12 @@ body {
 @media only screen and (min-width: 768px) {
   .hero .hero-text h1 {
     font-size: 1.875em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .hero .hero-text h1 {
+    font-size: 2em;
   }
 }
 
@@ -229,11 +259,9 @@ body {
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .hero {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 10px calc((100% - 800px) / 2);
+@media only screen and (min-width: 992px) {
+  .hero .hero-text h2 {
+    font-size: 1.25em;
   }
 }
 
