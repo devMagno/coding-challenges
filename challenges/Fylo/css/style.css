@@ -64,6 +64,18 @@ body {
   color: white;
 }
 
+.btn {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px;
+  background: linear-gradient(135deg, #65e2d9 0%, #339ecc 100%);
+  border-radius: 100px;
+}
+
 .header {
   padding: 30px 0;
   background-color: #1c2431;
@@ -86,7 +98,7 @@ body {
 .header nav ul li a {
   display: inline-block;
   padding: 10px;
-  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-size: 0.875em;
   font-weight: 400;
   color: white;
@@ -96,4 +108,38 @@ body {
 .header nav ul li a:hover {
   font-weight: 700;
   text-decoration: underline;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("../img/bg-curvy-mobile.svg") no-repeat;
+  background-position: bottom 0 center;
+  background-size: 200%;
+  background-color: #1c2431;
+  padding: 10px 30px;
+}
+
+.hero .hero-img {
+  margin-bottom: 20px;
+}
+
+.hero .hero-text {
+  text-align: center;
+}
+
+.hero .hero-text h1 {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.hero .hero-text h2 {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 15px 0;
 }
