@@ -729,12 +729,19 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
+  .footer .logo {
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
   .footer .footer-bottom {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1.25fr 1fr 1fr 1fr;
     align-items: start;
     justify-items: center;
     gap: 30px;
+    padding: 0 20px;
   }
 }
 

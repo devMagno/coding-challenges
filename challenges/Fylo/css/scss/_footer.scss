@@ -15,14 +15,18 @@
   }
   .logo {
     margin-left: 10px;
+    @include device(large) {
+      margin-left: 30px;
+    }
   }
   .footer-bottom {
     @include device(large) {
       display: grid;
-      grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 2fr 1.25fr 1fr 1fr 1fr;
       align-items: start;
       justify-items: center;
       gap: 30px;
+      padding: 0 20px;
     }
     .location {
       margin: 30px 0 20px 0;
