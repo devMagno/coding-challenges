@@ -64,13 +64,14 @@
       color: $cyan;
       padding-bottom: 10px;
       border-bottom: 1px solid currentColor;
-      max-width: fit-content;
+      max-width: 170px;
       transition: color .2s;
       &:hover {
         color: $white;
       }
       @include device(medium) {
         font-size: em(18);
+        max-width: 189px;
       }
       img {
         margin-left: 8px;

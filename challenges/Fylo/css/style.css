@@ -446,7 +446,7 @@ body {
   color: #65e2d9;
   padding-bottom: 10px;
   border-bottom: 1px solid currentColor;
-  max-width: fit-content;
+  max-width: 170px;
   transition: color .2s;
 }
 
@@ -457,6 +457,7 @@ body {
 @media only screen and (min-width: 768px) {
   .productivity .productivity-text a {
     font-size: 1.125em;
+    max-width: 189px;
   }
 }
 
