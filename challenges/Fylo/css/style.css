@@ -402,7 +402,7 @@ body {
   }
 }
 
-.productivity .productivity-text h1 {
+.productivity .productivity-text h3 {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-size: 1.25em;
   font-weight: 700;
@@ -412,13 +412,13 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  .productivity .productivity-text h1 {
+  .productivity .productivity-text h3 {
     font-size: 1.5em;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .productivity .productivity-text h1 {
+  .productivity .productivity-text h3 {
     font-size: 2.25em;
     margin-bottom: 20px;
   }
@@ -628,7 +628,7 @@ body {
   }
 }
 
-.contact .contact-card h1 {
+.contact .contact-card h3 {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-size: 1.25em;
   font-weight: 700;
@@ -636,13 +636,13 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  .contact .contact-card h1 {
+  .contact .contact-card h3 {
     font-size: 1.5em;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .contact .contact-card h1 {
+  .contact .contact-card h3 {
     font-size: 1.875em;
   }
 }
