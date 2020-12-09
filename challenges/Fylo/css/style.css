@@ -86,6 +86,10 @@ body {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
 }
 
+.hidden {
+  display: none;
+}
+
 .header {
   padding: 30px 0;
   background-color: #1c2431;
@@ -672,10 +676,6 @@ body {
   }
 }
 
-.contact .contact-card form label {
-  display: none;
-}
-
 .contact .contact-card form input {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 0.875em;
@@ -858,8 +858,4 @@ body {
 
 .footer .footer-bottom .social-list li a:hover {
   color: #65e2d9;
-}
-
-.footer .footer-bottom .social-list li a span {
-  display: none;
 }

@@ -50,9 +50,6 @@
       @include device(large) {
         flex-direction: row;
       }
-      label {
-        display: none;
-      }
       input {
         @include typo-2(14, 400);
         color: rgba(black, $alpha: 0.8);
