@@ -543,23 +543,23 @@ body {
   }
 }
 
-.quotes .quote-card cite {
+.quotes .quote-card .quote-bottom {
   display: flex;
   align-items: center;
 }
 
-.quotes .quote-card cite img {
+.quotes .quote-card .quote-bottom img {
   border-radius: 50%;
   width: 40px;
 }
 
 @media only screen and (min-width: 768px) {
-  .quotes .quote-card cite img {
+  .quotes .quote-card .quote-bottom img {
     width: 50px;
   }
 }
 
-.quotes .quote-card cite p {
+.quotes .quote-card .quote-bottom cite {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 0.875em;
   font-weight: 700;
@@ -567,12 +567,12 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  .quotes .quote-card cite p {
+  .quotes .quote-card .quote-bottom cite {
     font-size: 1.125em;
   }
 }
 
-.quotes .quote-card cite p span {
+.quotes .quote-card .quote-bottom cite span {
   margin-top: 10px;
   display: block;
   font-weight: 400;
@@ -581,7 +581,7 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-  .quotes .quote-card cite p span {
+  .quotes .quote-card .quote-bottom cite span {
     font-size: 0.77778em;
   }
 }

@@ -44,7 +44,7 @@
         margin-bottom: 30px;
       }
     }
-    cite {
+    .quote-bottom {
       display: flex;
       align-items: center;
       img {
@@ -54,7 +54,7 @@
           width: 50px;
         }
       }
-      p {
+      cite {
         @include typo-2(14, 700);
         margin-left: 15px;
         @include device(medium) {
