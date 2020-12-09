@@ -109,6 +109,8 @@ body {
 @media only screen and (min-width: 992px) {
   .header .logo {
     max-width: inherit;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
@@ -116,6 +118,12 @@ body {
   display: flex;
   margin-right: 10px;
   margin-left: 10px;
+}
+
+@media only screen and (min-width: 992px) {
+  .header nav ul {
+    margin-right: 20px;
+  }
 }
 
 .header nav ul li a {
