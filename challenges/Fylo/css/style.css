@@ -844,3 +844,7 @@ body {
 .footer .footer-bottom .social-list li a:hover {
   color: #65e2d9;
 }
+
+.footer .footer-bottom .social-list li a span {
+  display: none;
+}
