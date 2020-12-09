@@ -718,7 +718,13 @@ body {
 @media only screen and (min-width: 992px) {
   .footer {
     max-width: 1300px;
+    margin: 0 auto;
+    padding: 200px calc((100% - 1300px) / 2) 40px;
   }
+}
+
+.footer .logo {
+  margin-left: 10px;
 }
 
 @media only screen and (min-width: 992px) {
@@ -729,10 +735,6 @@ body {
     justify-items: center;
     gap: 30px;
   }
-}
-
-.footer .footer-bottom .logo {
-  margin-left: 10px;
 }
 
 .footer .footer-bottom .location {
@@ -748,6 +750,12 @@ body {
 
 .footer .footer-bottom .location p {
   margin-left: 10px;
+}
+
+@media only screen and (min-width: 992px) {
+  .footer .footer-bottom .location {
+    padding-left: 10px;
+  }
 }
 
 .footer .footer-bottom .contact-list li {
