@@ -4,7 +4,7 @@
 </p>
 
 ## 📖 Sobre   
-**Fylo Dark Theme Landing Page** é um desafio do site **[Frontend Mentor](https://www.frontendmentor.io)**. O projeto trata-se de uma _landing page_ com tema escuro de um app de armazenamento de arquivos. Desenvolvi o projeto utilizando a abordagem **mobile-first**, **CSS3 Flexbox** e **Grid**, além de seguir o _style guide_ e o _design_ fornecidos.
+**Fylo Dark Theme Landing Page** é um desafio de nível **júnior** do site **[Frontend Mentor](https://www.frontendmentor.io)**. O projeto trata-se de uma _landing page_ com tema escuro de um app de armazenamento de arquivos. Desenvolvi o projeto utilizando a abordagem **mobile-first**, combinando **CSS3 Flexbox** e **Grid** para a criação do layout, além de seguir o _style guide_ e o _design_ fornecidos.
 
 ---
 
