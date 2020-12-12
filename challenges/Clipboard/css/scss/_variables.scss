@@ -6,3 +6,13 @@ $light-blue: hsl(233, 100%, 69%);
 
 $dark-grayish-blue: hsl(210, 10%, 33%);
 $grayish-blue: hsl(201, 11%, 66%);
+
+@function em($pixels, $context: 16) {
+  @return $pixels / $context + em;
+}
+
+@mixin typo($size, $weight) {
+  font-family: $font;
+  font-weight: $weight;
+  font-size: em($size);
+}
