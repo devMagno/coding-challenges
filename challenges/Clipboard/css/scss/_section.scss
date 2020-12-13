@@ -3,6 +3,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  &__header {
+    margin: 20px 30px;
+    .header__title {
+      @include typo(28, 600);
+      color: $trout;
+      margin-bottom: 18px
+    }
+    .header__subtitle {
+      @include typo(16);
+      color: $hit-gray;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+  }
+  &__body {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
   &--main {
     padding: 60px 0;
     .main__image {
