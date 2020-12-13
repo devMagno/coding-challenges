@@ -22,6 +22,7 @@
           color: $trout;
           text-decoration: none;
           padding: 10px;
+          transition: color .2s;
           &:hover {
             color: $jungle-green;
           }
@@ -40,6 +41,7 @@
         font-size: em(28);
         color: $trout;
         padding: 10px;
+        transition: color .2s;
         &:hover {
           color: $jungle-green;
         }

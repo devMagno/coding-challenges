@@ -259,6 +259,7 @@ body {
   color: #4c545d;
   text-decoration: none;
   padding: 10px;
+  transition: color .2s;
 }
 
 .footer__nav .nav__list .nav__item .nav__link:hover {
@@ -278,6 +279,7 @@ body {
   font-size: 1.75em;
   color: #4c545d;
   padding: 10px;
+  transition: color .2s;
 }
 
 .footer__contact .contact__item .contact__link:hover {
