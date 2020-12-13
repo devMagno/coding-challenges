@@ -1,9 +1,13 @@
 .buttons {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   max-width: 300px;
   margin: 0 auto;
+  @include device(medium) {
+    max-width: none;
+  }
   &__button {
     flex: 1 1 200px;
     max-width: 250px;
