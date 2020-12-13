@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
 $font: 'Bai Jamjuree', Arial, Helvetica, sans-serif;
 
-$cyan: hsl(171, 66%, 44%);
-$light-blue: hsl(233, 100%, 69%);
+$jungle-green: hsl(171, 66%, 44%);
+$cornflower-blue: hsl(233, 100%, 69%);
 
-$dark-grayish-blue: hsl(210, 10%, 33%);
-$grayish-blue: hsl(201, 11%, 66%);
+$trout: hsl(212, 10%, 33%);
+$hit-gray: hsl(202, 11%, 66%);
 
 @function em($pixels, $context: 16) {
   @return $pixels / $context + em;
