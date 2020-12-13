@@ -98,6 +98,36 @@ body {
   margin-right: 30px;
 }
 
+.section__body--list .list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section__body--list .list__item + .list__item {
+  margin-top: 20px;
+}
+
+.section__body--list .list__item .list__illustration {
+  margin: 50px;
+}
+
+.section__body--list .list__item .list__title {
+  font-family: "Bai Jamjuree", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #4c545d;
+  margin-bottom: 16px;
+}
+
+.section__body--list .list__item .list__text {
+  font-family: "Bai Jamjuree", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #9fabb2;
+  line-height: 1.5;
+}
+
 .section__benefits .benefits__list {
   margin-top: 40px;
   margin-bottom: 40px;
