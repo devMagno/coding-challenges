@@ -1,0 +1,27 @@
+.buttons {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  &__button {
+    flex: 1 1 200px;
+    max-width: 250px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    @include typo(18);
+    color: white;
+    background-color: $jungle-green;
+    padding: 16px;
+    text-decoration: none;
+    border-radius: 500px;
+    box-shadow: inset 0 -3px 1px darken($jungle-green, 10%);
+    transition: opacity .2s;
+    &:hover {
+      opacity: .9;
+    }
+    &--blue {
+      background-color: $cornflower-blue;
+      box-shadow: inset 0 -3px 1px darken($cornflower-blue, 5%);
+    }
+  }
+}

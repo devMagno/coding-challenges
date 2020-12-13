@@ -56,3 +56,39 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+body {
+  background: url("../img/bg-header-mobile.png") no-repeat;
+  background-size: contain;
+  background-position: center top;
+}
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.buttons__button {
+  flex: 1 1 200px;
+  max-width: 250px;
+  margin: 10px;
+  text-align: center;
+  display: inline-block;
+  font-family: "Bai Jamjuree", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.125em;
+  color: white;
+  background-color: #26baa4;
+  padding: 16px;
+  text-decoration: none;
+  border-radius: 500px;
+  box-shadow: inset 0 -3px 1px #1d907f;
+  transition: opacity .2s;
+}
+
+.buttons__button:hover {
+  opacity: .9;
+}
+
+.buttons__button--blue {
+  background-color: #6173ff;
+  box-shadow: inset 0 -3px 1px #475dff;
+}
