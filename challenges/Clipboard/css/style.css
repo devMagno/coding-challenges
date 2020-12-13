@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -62,8 +63,13 @@ body {
   background-size: contain;
   background-position: center top;
 }
+
+.buttons {
+  display: flex;
   align-items: center;
   flex-wrap: wrap;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 .buttons__button {
