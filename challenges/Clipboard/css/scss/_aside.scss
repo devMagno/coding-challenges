@@ -1,0 +1,14 @@
+.section--aside {
+  .aside__list {
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .aside__item {
+      max-width: 150px;
+      & + .aside__item{
+        margin-top: 60px;
+      }
+    }
+  }
+}

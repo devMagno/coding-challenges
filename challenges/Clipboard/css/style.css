@@ -161,3 +161,18 @@ body {
   background-color: #6173ff;
   box-shadow: inset 0 -3px 1px #475dff;
 }
+
+.section--aside .aside__list {
+  margin: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section--aside .aside__list .aside__item {
+  max-width: 150px;
+}
+
+.section--aside .aside__list .aside__item + .aside__item {
+  margin-top: 60px;
+}
