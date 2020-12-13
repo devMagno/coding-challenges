@@ -228,3 +228,58 @@ body {
 .section--aside .aside__list .aside__item + .aside__item {
   margin-top: 60px;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  background-color: #f5f6f8cc;
+  padding: 60px 0;
+}
+
+.footer__image {
+  max-width: 60px;
+  margin-bottom: 40px;
+}
+
+.footer__nav {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.footer__nav .nav__list .nav__item + .nav__item {
+  margin-top: 30px;
+}
+
+.footer__nav .nav__list .nav__item .nav__link {
+  font-family: "Bai Jamjuree", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.125em;
+  color: #4c545d;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.footer__nav .nav__list .nav__item .nav__link:hover {
+  color: #26baa4;
+}
+
+.footer__contact {
+  display: flex;
+  align-items: center;
+}
+
+.footer__contact .contact__item + .contact__item {
+  margin-left: 20px;
+}
+
+.footer__contact .contact__item .contact__link {
+  font-size: 1.75em;
+  color: #4c545d;
+  padding: 10px;
+}
+
+.footer__contact .contact__item .contact__link:hover {
+  color: #26baa4;
+}
