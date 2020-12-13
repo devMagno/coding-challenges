@@ -72,6 +72,12 @@ body {
   text-align: center;
 }
 
+@media only screen and (min-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+}
+
 .section__header {
   margin: 20px 30px;
 }
@@ -153,13 +159,27 @@ body {
   padding: 60px 0;
 }
 
+@media only screen and (min-width: 768px) {
+  .section--main {
+    display: block;
+    padding: 80px 0;
+  }
+}
+
 .section--main .main__image {
-  margin: 30px 10px;
+  margin: 30px auto;
+  display: inline-block;
 }
 
 .section--main .main__text {
-  margin: 30px;
   text-align: center;
+  margin: 30px auto;
+}
+
+@media only screen and (min-width: 992px) {
+  .section--main .main__text {
+    max-width: 600px;
+  }
 }
 
 .section--main .main__text .main__title {
@@ -170,12 +190,24 @@ body {
   margin-bottom: 18px;
 }
 
+@media only screen and (min-width: 992px) {
+  .section--main .main__text .main__title {
+    font-size: 2.25em;
+  }
+}
+
 .section--main .main__text .main__subtitle {
   font-family: "Bai Jamjuree", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 1em;
   color: #9fabb2;
   line-height: 1.5;
+}
+
+@media only screen and (min-width: 992px) {
+  .section--main .main__text .main__subtitle {
+    font-size: 1.125em;
+  }
 }
 
 .buttons {

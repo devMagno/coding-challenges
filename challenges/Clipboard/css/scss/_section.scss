@@ -4,6 +4,9 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  @include device(medium) {
+    padding: 60px 0;
+  }
   &__header {
     margin: 20px 30px;
     .header__title {
@@ -64,21 +67,35 @@
 
   &--main {
     padding: 60px 0;
+    @include device(medium) {
+      display: block;
+      padding: 80px 0;
+    }
     .main__image {
-      margin: 30px 10px;
+      margin: 30px auto;
+      display: inline-block;
     }
     .main__text {
-      margin: 30px;
       text-align: center;
+      margin: 30px auto;
+      @include device(large) {
+        max-width: 600px
+      }
       .main__title {
         @include typo(32, 600);
         color: $trout;
         margin-bottom: 18px;
+        @include device(large) {
+          font-size: em(36);
+        }
       }
       .main__subtitle {
         @include typo(16);
         color: $hit-gray;
         line-height: 1.5;
+        @include device(large) {
+          font-size: em(18);
+        }
       }
     }
   }
