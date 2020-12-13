@@ -99,4 +99,10 @@
       }
     }
   }
+  &--download {
+    @include device(medium) {
+      display: block;
+      padding: 80px 0;
+    }
+  }
 }
