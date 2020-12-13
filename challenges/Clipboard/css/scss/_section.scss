@@ -1,0 +1,26 @@
+.section {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &--main {
+    padding: 60px 0;
+    .main__image {
+      margin: 30px 10px;
+    }
+    .main__text {
+      margin: 30px;
+      text-align: center;
+      .main__title {
+        @include typo(32, 600);
+        color: $trout;
+        margin-bottom: 18px;
+      }
+      .main__subtitle {
+        @include typo(16);
+        color: $hit-gray;
+        line-height: 1.5;
+      }
+    }
+  }
+}

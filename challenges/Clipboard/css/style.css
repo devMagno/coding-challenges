@@ -64,6 +64,42 @@ body {
   background-position: center top;
 }
 
+.section {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section--main {
+  padding: 60px 0;
+}
+
+.section--main .main__image {
+  margin: 30px 10px;
+}
+
+.section--main .main__text {
+  margin: 30px;
+  text-align: center;
+}
+
+.section--main .main__text .main__title {
+  font-family: "Bai Jamjuree", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  color: #4c545d;
+  margin-bottom: 18px;
+}
+
+.section--main .main__text .main__subtitle {
+  font-family: "Bai Jamjuree", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #9fabb2;
+  line-height: 1.5;
+}
+
 .buttons {
   display: flex;
   align-items: center;
@@ -79,7 +115,7 @@ body {
   text-align: center;
   display: inline-block;
   font-family: "Bai Jamjuree", Arial, Helvetica, sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.125em;
   color: white;
   background-color: #26baa4;
