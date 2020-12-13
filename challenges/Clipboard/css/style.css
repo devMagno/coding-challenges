@@ -98,6 +98,27 @@ body {
   margin-right: 30px;
 }
 
+.section__benefits .benefits__list {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.section__benefits .benefits__list .benefits__title {
+  font-family: "Bai Jamjuree", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #4c545d;
+  margin-bottom: 10px;
+}
+
+.section__benefits .benefits__list .benefits__text {
+  font-family: "Bai Jamjuree", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #9fabb2;
+  line-height: 1.5;
+}
+
 .section--main {
   padding: 60px 0;
 }
