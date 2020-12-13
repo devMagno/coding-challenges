@@ -96,6 +96,12 @@ body {
   margin-bottom: 18px;
 }
 
+@media only screen and (min-width: 992px) {
+  .section__header .header__title {
+    font-size: 1.875em;
+  }
+}
+
 .section__header .header__subtitle {
   font-family: "Bai Jamjuree", Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -103,6 +109,12 @@ body {
   color: #9fabb2;
   line-height: 1.5;
   margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+  .section__header .header__subtitle {
+    font-size: 1.125em;
+  }
 }
 
 .section__body {
@@ -132,12 +144,24 @@ body {
   margin-bottom: 16px;
 }
 
+@media only screen and (min-width: 992px) {
+  .section__body--list .list__item .list__title {
+    font-size: 1.625em;
+  }
+}
+
 .section__body--list .list__item .list__text {
   font-family: "Bai Jamjuree", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 1em;
   color: #9fabb2;
   line-height: 1.5;
+}
+
+@media only screen and (min-width: 992px) {
+  .section__body--list .list__item .list__text {
+    font-size: 1.125em;
+  }
 }
 
 .section__benefits .benefits__list {
@@ -153,12 +177,24 @@ body {
   margin-bottom: 10px;
 }
 
+@media only screen and (min-width: 992px) {
+  .section__benefits .benefits__list .benefits__title {
+    font-size: 1.625em;
+  }
+}
+
 .section__benefits .benefits__list .benefits__text {
   font-family: "Bai Jamjuree", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 1em;
   color: #9fabb2;
   line-height: 1.5;
+}
+
+@media only screen and (min-width: 992px) {
+  .section__benefits .benefits__list .benefits__text {
+    font-size: 1.125em;
+  }
 }
 
 .section--main {

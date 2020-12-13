@@ -12,13 +12,19 @@
     .header__title {
       @include typo(28, 600);
       color: $trout;
-      margin-bottom: 18px
+      margin-bottom: 18px;
+      @include device(large) {
+        font-size: em(30)
+      }
     }
     .header__subtitle {
       @include typo(16);
       color: $hit-gray;
       line-height: 1.5;
       margin-bottom: 20px;
+      @include device(large) {
+        font-size: em(18)
+      }
     }
   }
   &__body {
@@ -39,11 +45,17 @@
           @include typo(24, 600);
           color: $trout;
           margin-bottom: 16px;
+          @include device(large) {
+            font-size: em(26)
+          }
         }
         .list__text {
           @include typo(16);
           color: $hit-gray;
           line-height: 1.5;
+          @include device(large) {
+            font-size: em(18)
+          }
         }
       }
     }
@@ -56,11 +68,17 @@
         @include typo(24, 600);
         color: $trout;
         margin-bottom: 10px;
+        @include device(large) {
+          font-size: em(26);
+        }
       }
       .benefits__text {
         @include typo(16);
         color: $hit-gray;
         line-height: 1.5;
+        @include device(large) {
+          font-size: em(18);
+        }
       }
     }
   }
