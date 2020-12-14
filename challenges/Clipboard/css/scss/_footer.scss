@@ -5,17 +5,42 @@
   margin-top: 100px;
   background-color: #f5f6f8cc;
   padding: 60px 0;
+  @include device(large) {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px calc((100% - 1100px) / 2);
+  }
   &__image {
     max-width: 60px;
     margin-bottom: 40px;
+    @include device(large) {
+      margin-bottom: 0;
+      margin-left: 20px;
+    }
   }
   &__nav {
     text-align: center;
     margin-bottom: 50px;
+    @include device(large) {
+      margin-bottom: 0;
+      max-width: 450px;
+    }
     .nav__list {
+      @include device(large) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: start;
+        gap: 15px
+      }
       .nav__item {
         & + .nav__item {
-          margin-top: 30px
+          margin-top: 30px;
+          @include device(large) {
+            margin-top: 0
+          }
         }
         .nav__link {
           @include typo(18);
@@ -33,6 +58,10 @@
   &__contact {
     display: flex;
     align-items: center;
+    @include device(large) {
+      justify-self: end;
+      margin-right: 10px;
+    }
     .contact__item {
       & + .contact__item {
         margin-left: 20px;
