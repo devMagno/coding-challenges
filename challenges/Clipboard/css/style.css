@@ -308,11 +308,27 @@ body {
   box-shadow: inset 0 -3px 1px #475dff, 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
+@media only screen and (min-width: 992px) {
+  .section--aside {
+    margin: 0 20px;
+  }
+}
+
 .section--aside .aside__list {
   margin: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media only screen and (min-width: 992px) {
+  .section--aside .aside__list {
+    flex-direction: row;
+    width: 100%;
+    max-width: 1100px;
+    margin: 10px 0;
+    justify-content: space-between;
+  }
 }
 
 .section--aside .aside__list .aside__item {
@@ -321,6 +337,12 @@ body {
 
 .section--aside .aside__list .aside__item + .aside__item {
   margin-top: 60px;
+}
+
+@media only screen and (min-width: 992px) {
+  .section--aside .aside__list .aside__item + .aside__item {
+    margin-top: 0;
+  }
 }
 
 .footer {
