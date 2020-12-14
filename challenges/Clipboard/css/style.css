@@ -70,6 +70,10 @@ body {
   }
 }
 
+.hidden {
+  display: none;
+}
+
 .section {
   padding: 40px 0;
   display: flex;
