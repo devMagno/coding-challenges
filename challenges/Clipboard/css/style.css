@@ -259,6 +259,13 @@ body {
   }
 }
 
+@media only screen and (min-width: 992px) {
+  .section--download {
+    margin: 0 auto;
+    max-width: 730px;
+  }
+}
+
 .buttons {
   display: flex;
   align-items: center;

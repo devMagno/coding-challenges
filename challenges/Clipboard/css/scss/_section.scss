@@ -122,5 +122,9 @@
       display: block;
       padding: 80px 0;
     }
+    @include device(large) {
+      margin: 0 auto;
+      max-width: 730px;
+    }
   }
 }
