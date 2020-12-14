@@ -9,12 +9,16 @@
   }
   &__header {
     margin: 20px 30px;
+    @include device(large) {
+      max-width: 700px;
+      margin: 20px auto;
+    }
     .header__title {
       @include typo(28, 600);
       color: $trout;
       margin-bottom: 18px;
       @include device(large) {
-        font-size: em(30)
+        font-size: em(30);
       }
     }
     .header__subtitle {
