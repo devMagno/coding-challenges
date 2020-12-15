@@ -92,6 +92,14 @@ body {
   margin: 20px 30px;
 }
 
+@media only screen and (min-width: 768px) {
+  .section__header {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media only screen and (min-width: 992px) {
   .section__header {
     max-width: 700px;
@@ -138,6 +146,14 @@ body {
     display: flex;
     justify-content: space-between;
     max-width: 1100px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .section__body--list {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -276,7 +292,14 @@ body {
 
 .section--main .main__text {
   text-align: center;
+  padding: 0 20px;
   margin: 30px auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .section--main .main__text {
+    max-width: 500px;
+  }
 }
 
 @media only screen and (min-width: 992px) {
