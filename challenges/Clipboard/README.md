@@ -4,6 +4,7 @@
 </p>
 
 ## 📖 Sobre   
+**Clipboard Landing Page** é um desafio de nível **júnior** do site **[Frontend Mentor](https://www.frontendmentor.io)**. O projeto trata-se de uma _landing page_ de um app de gerenciamento de cópias. Desenvolvi o desafio utilizando a abordagem **mobile-first**, a metodologia **BEM** aplicada junto ao **SCSS**, além de combinar **Grid** e **Flexbox** para garantir a responsividade da página, que foi desenvolvida a partir dos _designs_ e _style guide_ fornecidos.
 
 ---
 
