@@ -12,3 +12,17 @@ $marine-green: hsl(170, 45%, 43%);
 
 $ghost-white: hsl(240, 80%, 98%);
 $silver: hsl(0, 0%, 75%);
+
+@function em($pixels, $context: 16) {
+  @return $pixels / $context + em;
+}
+
+@mixin typo-1($size, $weight: 400) {
+  font-family: $font-1;
+  font-size: em($size);
+  font-weight: $weight;
+}
+@mixin typo-2($size) {
+  font-family: $font-2;
+  font-size: em($size);
+}
