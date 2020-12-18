@@ -1,6 +1,6 @@
 # Profile Component 👤
 ## 📖 Sobre   
-O desafio trata-se de um componente de perfil, desenvolvido por **[Lorena Montes](https://github.com/Lorenalgm)** para o **[DevChallenge](https://www.devchallenge.com.br/)**. Realizei o desafio utilizando HTML5 e CSS3 flexbox, para, junto de _media queries_, garantir a responsividade da página.
+O desafio trata-se de um componente de perfil, desenvolvido por **[Lorena Montes](https://github.com/Lorenalgm)** para o **[DevChallenge](https://www.devchallenge.com.br/)** como um desafio de nível **iniciante**. Realizei o desafio utilizando HTML5 e CSS3 flexbox, para, junto de _media queries_, garantir a responsividade da página.
 
 ---
 

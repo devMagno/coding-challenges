@@ -4,7 +4,7 @@
 </p>
 
 ## 📖 Sobre   
-**Amazing Graphs** é uma _landing page_ desenvolvida para fins de estudo por **[Lorena Montes](https://github.com/Lorenalgm)** da **[DevChallenge](https://www.devchallenge.com.br/)**. Desenvolvi o projeto utilizanto utilizando **HTML5** e **CSS3 flexbox**, além de _media queries_ para garantir a responsividade da página.
+**Amazing Graphs** é uma _landing page_ desenvolvida para fins de estudo por **[Lorena Montes](https://github.com/Lorenalgm)** como um desafio de nível **iniciante** da **[DevChallenge](https://www.devchallenge.com.br/)**. Desenvolvi o projeto utilizanto utilizando **HTML5** e **CSS3 flexbox**, além de _media queries_ para garantir a responsividade da página.
  
 ---
 
