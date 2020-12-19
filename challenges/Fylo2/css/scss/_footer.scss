@@ -1,0 +1,29 @@
+.footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: $midnight-blue;
+  padding: 80px calc((100% - 1100px) / 2) 50px;
+  &__logo {
+    padding-left: 30px;
+  }
+  &__bottom {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding-left: 20px;
+    padding-right: 30px;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  &__icon {
+    margin-right: 20px;
+  }
+  &__link {
+    color: $silver;
+    text-decoration: none;
+    @include typo-2(14);
+  }
+}
