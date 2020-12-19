@@ -172,6 +172,64 @@ table {
   background-size: cover;
   margin-top: 100px;
 }
+
+.productivity {
+  padding: 20px calc((100% - 1400px) / 2) 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: #f6f6fe;
+}
+
+.productivity__text {
+  flex: 1 1;
+  color: #070439;
+  padding: 0 10px 0 30px;
+}
+
+.productivity__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.productivity__paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875em;
+  margin-top: 15px;
+  max-width: 479px;
+  line-height: 1.2;
+}
+
+.productivity__link {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #3c9f8f;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875em;
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
+  margin-bottom: 30px;
+  max-width: 150px;
+}
+
+.productivity__arrow {
+  margin-left: 6px;
+}
+
+.productivity__image {
+  flex: 1 1;
+  padding: 0 30px 0 10px;
+  max-width: 550px;
+}
+
 .footer {
   max-width: 1400px;
   margin: 0 auto;
