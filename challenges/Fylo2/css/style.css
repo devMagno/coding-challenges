@@ -164,6 +164,14 @@ table {
   box-shadow: 0 2px 8px #bfbfbf;
 }
 
+.wrapper::before {
+  content: '';
+  display: block;
+  height: 100px;
+  background: url("../img/bg-curve-desktop.svg") no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
 .footer {
   max-width: 1400px;
   margin: 0 auto;

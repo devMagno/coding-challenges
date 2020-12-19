@@ -1,0 +1,8 @@
+.wrapper::before {
+  content: '';
+  display: block;
+  height: 100px;
+  background: url('../img/bg-curve-desktop.svg') no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
