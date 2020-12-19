@@ -26,6 +26,10 @@
     color: $silver;
     text-decoration: none;
     @include typo-2(14);
+    transition: color .2s;
+    &:hover {
+      color: $retro-blue;
+    }
   }
 
   &__social {
@@ -44,5 +48,9 @@
     border-radius: 500px;
     text-decoration: none;
     font-size: em(20);
+    transition: color .2s;
+    &:hover {
+      color: $retro-blue;
+    }
   }
 }
