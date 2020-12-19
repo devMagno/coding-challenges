@@ -50,6 +50,47 @@
   &__image {
     flex: 1 1;
     padding: 0 30px 0 10px;
-    max-width: 550px;
+  }
+
+  .quote {
+    box-sizing: border-box;
+    max-width: 340px;
+    padding: 25px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .1);
+    border-radius: 6px;
+    &::before {
+      content: '';
+      width: 20px;
+      height: 20px;
+      display: block;
+      background: url('../img/icon-quotes.svg') no-repeat;    
+      background-size: cover;
+      margin: 5px 0 15px;
+    }
+    &__text {
+      @include typo-2(14);
+      line-height: 2;
+    }
+    &__bottom {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+    }
+    &__picture {
+      max-width: 35px;
+      border-radius: 500px;
+      margin-right: 10px;
+    }
+    &__cite {
+      @include typo-1(12, 700);
+    }
+    &__span {
+      display: block;
+      font-family: $font-2;
+      font-size: em(10, 12);
+      font-weight: 400;
+      margin-top: 5px;
+    }
   }
 }
