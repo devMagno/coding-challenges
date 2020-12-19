@@ -234,7 +234,7 @@ table {
   max-width: 1400px;
   margin: 0 auto;
   background-color: #070439;
-  padding: 80px calc((100% - 1100px) / 2) 50px;
+  padding: 80px calc((100% - 1400px) / 2) 50px;
 }
 
 .footer__logo {
