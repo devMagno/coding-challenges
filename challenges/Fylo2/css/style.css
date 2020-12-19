@@ -87,6 +87,11 @@ table {
   color: #070439;
   text-decoration: none;
   padding: 20px;
+  transition: color .2s;
+}
+
+.header__link:hover {
+  color: #3065f8;
 }
 
 .main {
