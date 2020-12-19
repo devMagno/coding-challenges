@@ -192,32 +192,32 @@ table {
 
 .productivity__title {
   font-family: "Raleway", sans-serif;
-  font-size: 2em;
+  font-size: 2.125em;
   font-weight: 700;
   line-height: 1.5;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .productivity__paragraph {
   font-family: "Open Sans", sans-serif;
-  font-size: 0.875em;
-  margin-top: 15px;
-  max-width: 479px;
-  line-height: 1.2;
+  font-size: 1em;
+  margin-top: 18px;
+  max-width: 522px;
+  line-height: 1.5;
 }
 
 .productivity__link {
   display: flex;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 18px;
   text-decoration: none;
   color: #3c9f8f;
   font-family: "Open Sans", sans-serif;
-  font-size: 0.875em;
+  font-size: 1em;
   padding-bottom: 5px;
   border-bottom: 1px solid;
   margin-bottom: 30px;
-  max-width: 150px;
+  max-width: 170px;
 }
 
 .productivity__arrow {

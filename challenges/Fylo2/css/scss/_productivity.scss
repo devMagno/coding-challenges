@@ -22,27 +22,27 @@
     padding: 0 10px 0 30px;
   }
   &__title {
-    @include typo-1(32, 700);
+    @include typo-1(34, 700);
     line-height: 1.5;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
   }
   &__paragraph {
-    @include typo-2(14);
-    margin-top: 15px;
-    max-width: 479px;
-    line-height: 1.2;
+    @include typo-2(16);
+    margin-top: 18px;
+    max-width: 522px;
+    line-height: 1.5;
   }
   &__link {
     display: flex;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 18px;
     text-decoration: none;
     color: $marine-green;
-    @include typo-2(14);
+    @include typo-2(16);
     padding-bottom: 5px;
     border-bottom: 1px solid;
     margin-bottom: 30px;
-    max-width: 150px;
+    max-width: 170px;
   }
   &__arrow {
     margin-left: 6px;
