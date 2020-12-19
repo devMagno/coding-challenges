@@ -1,0 +1,30 @@
+.main {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+  &__text {
+    flex: 1 1;
+    color: $midnight-blue;
+    padding: 0 10px 0 30px;
+  }
+  &__title {
+    @include typo-1(36, 700);
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  &__subtitle {
+    @include typo-2(16);
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  
+  &__image {
+    flex: 1 1;
+    padding: 0 30px 0 10px;
+  }
+}
