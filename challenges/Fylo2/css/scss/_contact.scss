@@ -8,6 +8,9 @@
   margin: 0 auto;
   background: $midnight-sea;
   color: $ghost-white;
+  &__text {
+    padding-left: 30px
+  }
   &__title {
     @include typo-1(30, 700);
     margin-bottom: 20px;

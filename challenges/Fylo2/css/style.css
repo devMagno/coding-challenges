@@ -314,6 +314,10 @@ table {
   color: #f6f6fe;
 }
 
+.contact__text {
+  padding-left: 30px;
+}
+
 .contact__title {
   font-family: "Raleway", sans-serif;
   font-size: 1.875em;
