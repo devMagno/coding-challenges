@@ -99,11 +99,12 @@ form {
   border: 1px solid var(--light-blue);
   background-color: none;
   outline: none;
+  transition: border-color .2s;
 }
 .form-input::placeholder {
   color: var(--light-blue);
 }
-.form-input:focus {
+.form-input:focus, .form-input:hover {
   border-color: var(--dark-blue);
 }
 .form-input ~ .form-input {
@@ -127,7 +128,7 @@ form {
   transition: opacity .2s;
 }
 .btn:hover {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 .form-footer {
   text-align: center;
