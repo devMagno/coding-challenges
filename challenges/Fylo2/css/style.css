@@ -250,6 +250,11 @@ table {
   border-bottom: 1px solid;
   margin-bottom: 30px;
   max-width: 170px;
+  transition: color .2s;
+}
+
+.productivity__link:hover {
+  color: #76cbbd;
 }
 
 .productivity__arrow {
