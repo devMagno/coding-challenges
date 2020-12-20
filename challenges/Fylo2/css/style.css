@@ -151,6 +151,16 @@ table {
   color: #bfbfbf;
 }
 
+.form__input--contact {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin-right: 0;
+  padding: 15px 20px;
+  flex-basis: 0;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
 .form__button {
   background-color: #3065f8;
   border: none;
@@ -162,6 +172,18 @@ table {
   font-size: 0.875em;
   color: #f6f6fe;
   box-shadow: 0 2px 8px #bfbfbf;
+}
+
+.form__button--contact {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  padding: 15px 20px;
+  flex-basis: 0;
+}
+
+.form--contact {
+  flex: 1;
+  display: block;
+  padding-right: 30px;
 }
 
 .wrapper::before {
