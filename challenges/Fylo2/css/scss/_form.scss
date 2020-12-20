@@ -33,10 +33,17 @@
     @include typo-2(14);
     color: $ghost-white;
     box-shadow: 0 2px 8px $silver;
+    transition: background-color .2s;
+    &:hover {
+      background-color: darken($retro-blue, 10%);
+    }
     &--contact {
       box-shadow: 0 3px 8px rgba(0, 0, 0, .2);
       padding: 15px 20px;
       flex-basis: 0;
+      &:hover {
+        background-color: lighten($retro-blue, 5%);
+      }
     }
   }
 

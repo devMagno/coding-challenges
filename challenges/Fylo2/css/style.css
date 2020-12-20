@@ -172,12 +172,21 @@ table {
   font-size: 0.875em;
   color: #f6f6fe;
   box-shadow: 0 2px 8px #bfbfbf;
+  transition: background-color .2s;
+}
+
+.form__button:hover {
+  background-color: #0945ec;
 }
 
 .form__button--contact {
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
   padding: 15px 20px;
   flex-basis: 0;
+}
+
+.form__button--contact:hover {
+  background-color: #4978f8;
 }
 
 .form--contact {
