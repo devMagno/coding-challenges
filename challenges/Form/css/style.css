@@ -90,16 +90,25 @@ form {
   display: flex;
   flex-direction: column;
 }
+.input-container {
+  position: relative;
+}
+.input-container ~ .input-container{
+  margin-top: 20px;
+}
 .form-label {
   display: none;
 }
 .form-input {
+  box-sizing: border-box;
+  width: 100%;
   padding: 17px 20px;
   border-radius: 8px;
   border: 1px solid var(--light-blue);
-  background-color: none;
+  background-color: transparent;
   outline: none;
-  transition: border-color .2s;
+  transition: border-color .2s, box-shadow .2s, color .2s;
+  position: relative;
 }
 .form-input::placeholder {
   color: var(--light-blue);
@@ -107,8 +116,39 @@ form {
 .form-input:focus, .form-input:hover {
   border-color: var(--dark-blue);
 }
-.form-input ~ .form-input {
-  margin-top: 20px;
+.form-input:valid {
+  color: var(--green);
+}
+.form-input:focus:valid {
+  border-color: transparent;
+  box-shadow: 0px 0px 1px 2px var(--green);
+  color: var(--green);
+}
+.form-input:invalid {
+  color: var(--red);
+}
+.form-input:focus:invalid {
+  border-color: transparent;
+  box-shadow: 0px 0px 1px 2px var(--red);
+  color: var(--red);
+}
+.form-input:focus:invalid::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: url(../img/icon-error.svg);
+  width: 24px;
+  height: 24px;
+}
+.valid-icon {
+  opacity: 0;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  transition: opacity .3s;
+}
+.form-input:focus:invalid + .valid-icon {
+  opacity: 1;
 }
 .btn {
   outline: none;
