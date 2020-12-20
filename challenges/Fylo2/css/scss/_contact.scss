@@ -1,15 +1,15 @@
 .contact {
-  padding: 70px calc((100% - 1400px) / 2);
+  padding: 40px calc((100% - 1400px) / 2);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
   max-width: 1400px;
   margin: 0 auto;
   background: $midnight-sea;
   color: $ghost-white;
   &__text {
-    padding-left: 30px
+    padding: 30px;
+    flex-basis: 510px;
   }
   &__title {
     @include typo-1(30, 700);

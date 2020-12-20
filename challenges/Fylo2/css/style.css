@@ -192,7 +192,8 @@ table {
 .form--contact {
   flex: 1;
   display: block;
-  padding-right: 30px;
+  padding: 30px;
+  flex-basis: 300px;
 }
 
 .wrapper::before {
@@ -205,7 +206,7 @@ table {
 }
 
 .productivity {
-  padding: 20px calc((100% - 1400px) / 2) 40px;
+  padding: 30px calc((100% - 1400px) / 2) 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -312,11 +313,10 @@ table {
 }
 
 .contact {
-  padding: 70px calc((100% - 1400px) / 2);
+  padding: 40px calc((100% - 1400px) / 2);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
   max-width: 1400px;
   margin: 0 auto;
   background: #585889;
@@ -324,7 +324,8 @@ table {
 }
 
 .contact__text {
-  padding-left: 30px;
+  padding: 30px;
+  flex-basis: 510px;
 }
 
 .contact__title {

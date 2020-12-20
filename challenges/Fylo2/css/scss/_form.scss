@@ -50,6 +50,7 @@
   &--contact {
     flex: 1;
     display: block;
-    padding-right: 30px;
+    padding: 30px;
+    flex-basis: 300px;
   }
 }
