@@ -280,6 +280,32 @@ table {
   margin-top: 5px;
 }
 
+.contact {
+  padding: 70px calc((100% - 1400px) / 2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: #585889;
+  color: #f6f6fe;
+}
+
+.contact__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.875em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact__paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  max-width: 510px;
+  line-height: 1.5;
+}
+
 .footer {
   max-width: 1400px;
   margin: 0 auto;

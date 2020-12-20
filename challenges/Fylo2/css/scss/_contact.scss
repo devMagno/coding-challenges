@@ -1,0 +1,20 @@
+.contact {
+  padding: 70px calc((100% - 1400px) / 2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1400px;
+  margin: 0 auto;
+  background: $midnight-sea;
+  color: $ghost-white;
+  &__title {
+    @include typo-1(30, 700);
+    margin-bottom: 20px;
+  }
+  &__paragraph {
+    @include typo-2(16);
+    max-width: 510px;
+    line-height: 1.5;
+  }
+}
