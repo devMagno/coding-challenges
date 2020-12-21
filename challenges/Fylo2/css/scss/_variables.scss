@@ -26,3 +26,16 @@ $silver: hsl(0, 0%, 75%);
   font-family: $font-2;
   font-size: em($size);
 }
+
+@mixin device($screen) {
+  @if $screen == medium {
+    @media only screen and (max-width: 768px) {
+      @content;
+    }
+  }
+  @else if $screen == small {
+    @media only screen and (max-width: 550px) {
+      @content;
+    }
+  }
+}
