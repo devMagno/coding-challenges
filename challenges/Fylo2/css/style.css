@@ -59,6 +59,10 @@ table {
   border-spacing: 0;
 }
 
+.hidden {
+  display: none;
+}
+
 .header {
   padding: 40px 0;
   display: flex;
