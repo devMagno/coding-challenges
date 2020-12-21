@@ -5,6 +5,9 @@
   background: url('../img/bg-curve-desktop.svg') no-repeat;
   background-size: cover;
   margin-top: 100px;
+  @include device(medium) {
+    background-image: url('../img/bg-curve-mobile.svg');
+  }
 }
 
 .productivity {
@@ -16,21 +19,34 @@
   max-width: 1400px;
   margin: 0 auto;
   background: $ghost-white;
+  @include device(medium) {
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
   &__text {
     flex: 1 1;
     color: $midnight-blue;
     padding: 0 10px 0 30px;
+    @include device(medium) {
+      padding: 30px;
+    }
   }
   &__title {
     @include typo-1(34, 700);
     line-height: 1.5;
     margin-bottom: 12px;
+    @include device(medium) {
+      text-align: center
+    }
   }
   &__paragraph {
     @include typo-2(16);
     margin-top: 18px;
     max-width: 522px;
     line-height: 1.5;
+    @include device(medium) {
+      max-width: none;
+    }
   }
   &__link {
     display: flex;
@@ -47,6 +63,9 @@
     &:hover {
       color: lighten($marine-green, 20%)
     }
+    @include device(medium) {
+      margin: 25px auto 40px;
+    }
   }
   &__arrow {
     margin-left: 6px;
@@ -54,6 +73,10 @@
   &__image {
     flex: 1 1;
     padding: 0 30px 0 10px;
+    @include device(medium) {
+      order: -1;
+      padding: 30px;
+    }
   }
 
   .quote {
@@ -61,7 +84,7 @@
     max-width: 340px;
     padding: 25px;
     background-color: white;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, .1);
+    box-shadow: 1px 5px 10px 5px rgba(0, 0, 0, .1);
     border-radius: 6px;
     &::before {
       content: '';
@@ -71,6 +94,10 @@
       background: url('../img/icon-quotes.svg') no-repeat;    
       background-size: cover;
       margin: 5px 0 15px;
+    }
+    @include device(medium) {
+      margin: 0 auto;
+      max-width: 415px
     }
     &__text {
       @include typo-2(14);

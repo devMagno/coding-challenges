@@ -256,6 +256,12 @@ table {
   margin-top: 100px;
 }
 
+@media only screen and (max-width: 768px) {
+  .wrapper::before {
+    background-image: url("../img/bg-curve-mobile.svg");
+  }
+}
+
 .productivity {
   padding: 30px calc((100% - 1400px) / 2) 100px;
   display: flex;
@@ -267,10 +273,23 @@ table {
   background: #f6f6fe;
 }
 
+@media only screen and (max-width: 768px) {
+  .productivity {
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+}
+
 .productivity__text {
   flex: 1 1;
   color: #070439;
   padding: 0 10px 0 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .productivity__text {
+    padding: 30px;
+  }
 }
 
 .productivity__title {
@@ -281,12 +300,24 @@ table {
   margin-bottom: 12px;
 }
 
+@media only screen and (max-width: 768px) {
+  .productivity__title {
+    text-align: center;
+  }
+}
+
 .productivity__paragraph {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
   margin-top: 18px;
   max-width: 522px;
   line-height: 1.5;
+}
+
+@media only screen and (max-width: 768px) {
+  .productivity__paragraph {
+    max-width: none;
+  }
 }
 
 .productivity__link {
@@ -308,6 +339,12 @@ table {
   color: #76cbbd;
 }
 
+@media only screen and (max-width: 768px) {
+  .productivity__link {
+    margin: 25px auto 40px;
+  }
+}
+
 .productivity__arrow {
   margin-left: 6px;
 }
@@ -317,12 +354,19 @@ table {
   padding: 0 30px 0 10px;
 }
 
+@media only screen and (max-width: 768px) {
+  .productivity__image {
+    order: -1;
+    padding: 30px;
+  }
+}
+
 .productivity .quote {
   box-sizing: border-box;
   max-width: 340px;
   padding: 25px;
   background-color: white;
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 5px 10px 5px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
 }
 
@@ -334,6 +378,13 @@ table {
   background: url("../img/icon-quotes.svg") no-repeat;
   background-size: cover;
   margin: 5px 0 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .productivity .quote {
+    margin: 0 auto;
+    max-width: 415px;
+  }
 }
 
 .productivity .quote__text {
