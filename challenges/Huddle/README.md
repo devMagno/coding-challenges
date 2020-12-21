@@ -1,11 +1,11 @@
-# Huddle 💬
+# Huddle Landing Page with a Single Introductory Section 💬
 <p align="center">
 <img src="img/logo.svg" alt="Huddle" title="Huddle">
 </p>
 
 ---
 ## 📖 Sobre   
-**Huddle landing page with a single introductory section** é um desafio de nivel **iniciante** do site **[Frontend Mentor](https://www.frontendmentor.io/)**. O projeto trata-se de uma landing page de um app de mensagens e comunidades e foi desenvolvido utilizando CSS3 flexbox, seguindo o _style guide_ e o _design_ fornecidos.
+**Huddle Landing Page with a Single Introductory Section** é um desafio de nivel **iniciante** do site **[Frontend Mentor](https://www.frontendmentor.io/)**. O projeto trata-se de uma landing page de um app de mensagens e comunidades e foi desenvolvido utilizando CSS3 flexbox, seguindo o _style guide_ e o _design_ fornecidos.
 
 ---
 ## 🚀 Tecnologias e ferramentas utilizadas
