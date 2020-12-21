@@ -17,11 +17,19 @@
       padding: 10px 30px;
       text-align: center;
     }
+    @include device(small) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
   }
   &__title {
     @include typo-1(36, 700);
     line-height: 1.5;
     margin-bottom: 15px;
+    @include device(small) {
+      font-size: em(26);
+      margin-bottom: 20px;
+    }
   }
   &__subtitle {
     @include typo-2(16);

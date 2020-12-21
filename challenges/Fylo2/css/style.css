@@ -137,12 +137,26 @@ table {
   }
 }
 
+@media only screen and (max-width: 550px) {
+  .main__text {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 .main__title {
   font-family: "Raleway", sans-serif;
   font-size: 2.25em;
   font-weight: 700;
   line-height: 1.5;
   margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 550px) {
+  .main__title {
+    font-size: 1.625em;
+    margin-bottom: 20px;
+  }
 }
 
 .main__subtitle {
