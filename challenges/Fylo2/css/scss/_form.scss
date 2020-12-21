@@ -1,6 +1,11 @@
 .form {
   display: flex;
   max-width: 460px;
+  @include device(medium) {
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 600px;
+  }
   &__input {
     border: 1px solid $midnight-sea;
     border-radius: 4px;
@@ -12,6 +17,12 @@
     margin-right: 15px;
     &::placeholder {
       color: $silver;
+    }
+    @include device(medium) {
+      flex-basis: 0;
+      margin-right: 0;
+      margin-bottom: 15px;
+      padding: 18px;
     }
     &--contact {
       box-shadow: 0 2px 8px rgba(0, 0, 0, .1);
@@ -36,6 +47,10 @@
     transition: background-color .2s;
     &:hover {
       background-color: darken($retro-blue, 10%);
+    }
+    @include device(medium) {
+      flex-basis: 0;
+      padding: 18px;
     }
     &--contact {
       box-shadow: 0 3px 8px rgba(0, 0, 0, .2);

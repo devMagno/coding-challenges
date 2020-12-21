@@ -104,10 +104,23 @@ table {
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+}
+
 .main__text {
   flex: 1 1;
   color: #070439;
   padding: 0 10px 0 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main__text {
+    padding: 10px 30px;
+    text-align: center;
+  }
 }
 
 .main__title {
@@ -125,14 +138,36 @@ table {
   margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+  .main__subtitle {
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
+}
+
 .main__image {
   flex: 1 1;
   padding: 0 30px 0 10px;
 }
 
+@media only screen and (max-width: 768px) {
+  .main__image {
+    order: -1;
+    padding: 30px;
+  }
+}
+
 .form {
   display: flex;
   max-width: 460px;
+}
+
+@media only screen and (max-width: 768px) {
+  .form {
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 600px;
+  }
 }
 
 .form__input {
@@ -149,6 +184,15 @@ table {
 
 .form__input::placeholder {
   color: #bfbfbf;
+}
+
+@media only screen and (max-width: 768px) {
+  .form__input {
+    flex-basis: 0;
+    margin-right: 0;
+    margin-bottom: 15px;
+    padding: 18px;
+  }
 }
 
 .form__input--contact {
@@ -177,6 +221,13 @@ table {
 
 .form__button:hover {
   background-color: #0945ec;
+}
+
+@media only screen and (max-width: 768px) {
+  .form__button {
+    flex-basis: 0;
+    padding: 18px;
+  }
 }
 
 .form__button--contact {

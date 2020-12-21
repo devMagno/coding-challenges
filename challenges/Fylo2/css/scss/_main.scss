@@ -6,10 +6,17 @@
   flex-wrap: wrap;
   max-width: 1400px;
   margin: 0 auto;
+  @include device(medium) {
+    flex-direction: column;
+  }
   &__text {
     flex: 1 1;
     color: $midnight-blue;
     padding: 0 10px 0 30px;
+    @include device(medium) {
+      padding: 10px 30px;
+      text-align: center;
+    }
   }
   &__title {
     @include typo-1(36, 700);
@@ -20,11 +27,19 @@
     @include typo-2(16);
     line-height: 1.5;
     margin-bottom: 20px;
+    @include device(medium) {
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
   }
   
   
   &__image {
     flex: 1 1;
     padding: 0 30px 0 10px;
+    @include device(medium) {
+      order: -1;
+      padding: 30px;
+    }
   }
 }
