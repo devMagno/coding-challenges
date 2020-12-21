@@ -564,6 +564,12 @@ table {
   gap: 30px;
 }
 
+@media only screen and (max-width: 550px) {
+  .footer__bottom {
+    grid-template-columns: 1fr;
+  }
+}
+
 .footer__item {
   display: flex;
   align-items: center;
@@ -592,6 +598,14 @@ table {
   gap: 20px;
 }
 
+@media only screen and (max-width: 550px) {
+  .footer__social {
+    justify-items: center;
+    gap: 10px;
+    justify-self: center;
+  }
+}
+
 .footer .social__link {
   display: flex;
   justify-content: center;
@@ -608,4 +622,12 @@ table {
 
 .footer .social__link:hover {
   color: #3065f8;
+}
+
+@media only screen and (max-width: 550px) {
+  .footer .social__link {
+    width: 35px;
+    height: 35px;
+    font-size: 1em;
+  }
 }
