@@ -8,6 +8,11 @@
   @include device(medium) {
     background-image: url('../img/bg-curve-mobile.svg');
   }
+  @include device(small) {
+    background-size: cover;
+    height: 60px;
+    margin-top: 50px;
+  }
 }
 
 .productivity {
@@ -30,6 +35,9 @@
     @include device(medium) {
       padding: 30px;
     }
+    @include device(small) {
+      padding: 20px
+    }
   }
   &__title {
     @include typo-1(34, 700);
@@ -37,6 +45,9 @@
     margin-bottom: 12px;
     @include device(medium) {
       text-align: center
+    }
+    @include device(small) {
+      font-size: em(20);
     }
   }
   &__paragraph {
@@ -46,6 +57,9 @@
     line-height: 1.5;
     @include device(medium) {
       max-width: none;
+    }
+    @include device(small) {
+      font-size: em(14);
     }
   }
   &__link {
@@ -59,12 +73,16 @@
     border-bottom: 1px solid;
     margin-bottom: 30px;
     max-width: 170px;
-    transition: color .2s;
+    transition: opacity .2s;
     &:hover {
-      color: lighten($marine-green, 20%)
+      opacity: .7;
     }
     @include device(medium) {
       margin: 25px auto 40px;
+    }
+    @include device(small) {
+      font-size: em(14);
+      max-width: 150px;
     }
   }
   &__arrow {

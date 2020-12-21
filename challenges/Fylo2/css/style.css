@@ -304,6 +304,14 @@ table {
   }
 }
 
+@media only screen and (max-width: 550px) {
+  .wrapper::before {
+    background-size: cover;
+    height: 60px;
+    margin-top: 50px;
+  }
+}
+
 .productivity {
   padding: 30px calc((100% - 1400px) / 2) 100px;
   display: flex;
@@ -334,6 +342,12 @@ table {
   }
 }
 
+@media only screen and (max-width: 550px) {
+  .productivity__text {
+    padding: 20px;
+  }
+}
+
 .productivity__title {
   font-family: "Raleway", sans-serif;
   font-size: 2.125em;
@@ -345,6 +359,12 @@ table {
 @media only screen and (max-width: 768px) {
   .productivity__title {
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .productivity__title {
+    font-size: 1.25em;
   }
 }
 
@@ -362,6 +382,12 @@ table {
   }
 }
 
+@media only screen and (max-width: 550px) {
+  .productivity__paragraph {
+    font-size: 0.875em;
+  }
+}
+
 .productivity__link {
   display: flex;
   align-items: center;
@@ -374,16 +400,23 @@ table {
   border-bottom: 1px solid;
   margin-bottom: 30px;
   max-width: 170px;
-  transition: color .2s;
+  transition: opacity .2s;
 }
 
 .productivity__link:hover {
-  color: #76cbbd;
+  opacity: .7;
 }
 
 @media only screen and (max-width: 768px) {
   .productivity__link {
     margin: 25px auto 40px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .productivity__link {
+    font-size: 0.875em;
+    max-width: 150px;
   }
 }
 
