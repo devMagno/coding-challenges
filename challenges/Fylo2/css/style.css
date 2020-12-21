@@ -73,6 +73,13 @@ table {
   padding-left: 30px;
 }
 
+@media only screen and (max-width: 550px) {
+  .header__logo {
+    max-width: 70px;
+    padding-left: 20px;
+  }
+}
+
 .header__list {
   display: flex;
   align-items: center;
@@ -92,6 +99,13 @@ table {
 
 .header__link:hover {
   color: #3065f8;
+}
+
+@media only screen and (max-width: 550px) {
+  .header__link {
+    padding: 10px;
+    font-size: 0.875em;
+  }
 }
 
 .main {

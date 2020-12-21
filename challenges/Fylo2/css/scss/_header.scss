@@ -8,6 +8,10 @@
   margin: 0 auto;
   &__logo {
     padding-left: 30px;
+    @include device(small) {
+      max-width: 70px;
+      padding-left: 20px;
+    }
   }
   &__list {
     display: flex;
@@ -23,6 +27,10 @@
     transition: color .2s;
     &:hover {
       color: $retro-blue;
+    }
+    @include device(small) {
+      padding: 10px;
+      font-size: em(14);
     }
   }
 }
