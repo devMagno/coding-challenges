@@ -524,11 +524,23 @@ table {
   }
 }
 
+@media only screen and (max-width: 550px) {
+  .contact__text {
+    padding: 30px 20px 10px;
+  }
+}
+
 .contact__title {
   font-family: "Raleway", sans-serif;
   font-size: 1.875em;
   font-weight: 700;
   margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 550px) {
+  .contact__title {
+    font-size: 1.25em;
+  }
 }
 
 .contact__paragraph {
@@ -541,6 +553,12 @@ table {
 @media only screen and (max-width: 768px) {
   .contact__paragraph {
     max-width: 600px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .contact__paragraph {
+    font-size: 0.875em;
   }
 }
 

@@ -18,10 +18,16 @@
       text-align: center;
       padding-bottom: 10px
     }
+    @include device(small) {
+      padding: 30px 20px 10px;
+    }
   }
   &__title {
     @include typo-1(30, 700);
     margin-bottom: 20px;
+    @include device(small) {
+      font-size: em(20);
+    }
   }
   &__paragraph {
     @include typo-2(16);
@@ -29,6 +35,9 @@
     line-height: 1.5;
     @include device(medium) {
       max-width: 600px;
+    }
+    @include device(small) {
+      font-size: em(14);
     }
   }
 }
