@@ -59,6 +59,9 @@
       &:hover {
         background-color: lighten($retro-blue, 5%);
       }
+      @include device(medium) {
+        width: 100%;
+      }
     }
   }
 
@@ -67,5 +70,10 @@
     display: block;
     padding: 30px;
     flex-basis: 300px;
+    @include device(medium) {
+      flex-basis: 0;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
   }
 }

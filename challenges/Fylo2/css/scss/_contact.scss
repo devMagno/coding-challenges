@@ -7,9 +7,17 @@
   margin: 0 auto;
   background: $midnight-sea;
   color: $ghost-white;
+  @include device(medium) {
+    flex-direction: column;
+  }
   &__text {
     padding: 30px;
     flex-basis: 510px;
+    @include device(medium) {
+      flex-basis: 0;
+      text-align: center;
+      padding-bottom: 10px
+    }
   }
   &__title {
     @include typo-1(30, 700);
@@ -19,5 +27,8 @@
     @include typo-2(16);
     max-width: 510px;
     line-height: 1.5;
+    @include device(medium) {
+      max-width: 600px;
+    }
   }
 }

@@ -240,11 +240,25 @@ table {
   background-color: #4978f8;
 }
 
+@media only screen and (max-width: 768px) {
+  .form__button--contact {
+    width: 100%;
+  }
+}
+
 .form--contact {
   flex: 1;
   display: block;
   padding: 30px;
   flex-basis: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+  .form--contact {
+    flex-basis: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .wrapper::before {
@@ -430,9 +444,23 @@ table {
   color: #f6f6fe;
 }
 
+@media only screen and (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+  }
+}
+
 .contact__text {
   padding: 30px;
   flex-basis: 510px;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact__text {
+    flex-basis: 0;
+    text-align: center;
+    padding-bottom: 10px;
+  }
 }
 
 .contact__title {
@@ -447,6 +475,12 @@ table {
   font-size: 1em;
   max-width: 510px;
   line-height: 1.5;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact__paragraph {
+    max-width: 600px;
+  }
 }
 
 .footer {
