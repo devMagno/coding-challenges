@@ -4,7 +4,7 @@
 </p>
 
 ## 📖 Sobre   
-
+**Fylo Landing Page with Two Column Layout** é um desafio de nível **júnior** do site **[Frontend Mentor](https://www.frontendmentor.io)**. Trata-se de uma _landing page_ de um app de armazenamento de arquivos com um layout de duas colunas, que eu desenvolvi utilizando **CSS3 Grid** e **Flexbox**, o pré-processador **Sass**, alinhado à metodologia de nomeação de classes **BEM**, além de seguir o guia de estilos e o _design_ fornecidos para a criação do layout.
 
 ---
 
