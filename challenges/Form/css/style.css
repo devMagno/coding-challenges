@@ -180,17 +180,23 @@ form {
 }
 
 @media only screen and (max-width: 850px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+  }
   .intro, .form-container {
     margin: 0 auto;
+  }
+  .intro {
+    text-align: center;
+    margin-bottom: 60px;
+    flex: 0;
   }
 }
 
 @media only screen and (max-width: 500px) {
   body {
     background-image: url('../img/bg-intro-mobile.png');
-  }
-  .intro {
-    text-align: center;
   }
   .intro h1 {
     font-size: 2em;
