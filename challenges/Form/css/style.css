@@ -50,13 +50,13 @@ h1 {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  padding: 30px 10px;
 }
 
 .intro {
   max-width: 500px;
   flex: 1;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 0 30px;
 }
 .intro h1 {
   margin-bottom: 20px;
@@ -189,7 +189,7 @@ form {
   }
   .intro {
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     flex: 0;
   }
 }
@@ -201,5 +201,8 @@ form {
   .intro h1 {
     font-size: 2em;
     margin: 15px auto;
+  }
+  .form-container, .intro {
+    padding: 10px;
   }
 }
