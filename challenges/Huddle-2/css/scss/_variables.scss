@@ -9,3 +9,19 @@ $drunken-flamingo: hsl(322, 100%, 66%);
 $aphrodites-pearls: hsl(192, 100%, 96%);
 $daintree: hsl(192, 100%, 9%);
 $prophetic-sea: hsl(209, 11%, 55%);
+
+
+@function em($pixels, $context: 16) {
+  @return $pixels / $context + em;
+}
+
+@mixin typo-1($size) {
+  font-family: $font-1;
+  font-size: em($size);
+  font-weight: 600;
+}
+@mixin typo-2($size, $weight) {
+  font-family: $font-2;
+  font-size: em($size);
+  font-weight: $weight;
+}
