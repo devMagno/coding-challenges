@@ -1,0 +1,29 @@
+.benefits {
+  padding: 50px 20px 350px;
+  &__card {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 4px rgba($prophetic-sea, .1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & + & {
+      margin-top: 40px;
+    }
+  }
+  &__image {
+    padding: 20px 10px;
+    margin-bottom: 30px;
+  }
+  &__title {
+    @include typo-1(20);
+    color: $daintree;
+    margin-bottom: 20px;
+  }
+  &__paragraph {
+    @include typo-2(14, 400);
+    line-height: 1.5;
+    color: $prophetic-sea;
+  }
+}
