@@ -30,6 +30,10 @@
     background-color: $drunken-flamingo;
     padding: 15px;
     border-radius: 500px;
-    box-shadow: 1px 1px 10px 4px rgba($prophetic-sea, .1);  
+    box-shadow: 1px 1px 10px 4px rgba($prophetic-sea, .1);
+    transition: background-color .2s;
+    &:hover {
+      background-color: lighten($drunken-flamingo, 10%);
+    }
   }
 }

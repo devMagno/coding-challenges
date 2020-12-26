@@ -35,5 +35,9 @@
     padding: 15px;
     border-radius: 500px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+    transition: background-color .2s;
+    &:hover {
+      background-color: lighten($drunken-flamingo, 10%);
+    }
   }
 }
