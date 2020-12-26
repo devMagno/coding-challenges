@@ -1,0 +1,34 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.cta {
+  position: absolute;
+  top: -200px;
+  padding: 0 15px;
+  align-self: center;
+  &__card {
+    box-shadow: 1px 1px 10px 4px rgba($prophetic-sea, .1);
+    border-radius: 16px;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  &__title {
+    @include typo-1(18);
+    color: $daintree;
+  }
+  &__button {
+    margin: 30px 50px 0px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    @include typo-1(12);
+    background-color: $drunken-flamingo;
+    padding: 15px;
+    border-radius: 500px;
+    box-shadow: 1px 1px 10px 4px rgba($prophetic-sea, .1);  
+  }
+}
