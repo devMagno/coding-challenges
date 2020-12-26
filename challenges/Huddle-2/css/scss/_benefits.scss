@@ -1,5 +1,10 @@
 .benefits {
   padding: 50px 20px 200px;
+  @include device(large) {
+    padding: 100px 40px 200px;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
   &__card {
     padding: 30px;
     border-radius: 10px;
@@ -11,11 +16,32 @@
     & + & {
       margin-top: 40px;
     }
+    @include device(large) {
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+      padding-left: 90px;
+    }
   }
   &__image {
     padding: 20px 10px;
     margin-bottom: 30px;
     @include device(medium) {
+      max-width: 500px
+    }
+    @include device(large) {
+      margin-right: 30px;
+    }
+    &--right {
+      @include device(large) {
+        order: 1;
+        margin-left: 30px;
+        margin-right: 0;
+      }
+    }
+  }
+  &__text {
+    @include device(large) {
       max-width: 500px
     }
   }
@@ -24,7 +50,10 @@
     color: $daintree;
     margin-bottom: 20px;
     @include device(medium) {
-      font-size: em(24)
+      font-size: em(24);
+    }
+    @include device(large) {
+      font-size: em(28);
     }
   }
   &__paragraph {
@@ -32,7 +61,7 @@
     line-height: 1.5;
     color: $prophetic-sea;
     @include device(medium) {
-      font-size: em(16)
+      font-size: em(16);
     }
   }
 }
