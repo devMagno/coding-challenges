@@ -1,6 +1,9 @@
 .footer {
   background: $daintree;
   padding: 100px 15px 40px;
+  @include device(medium) {
+    padding-top: 130px;
+  }
   &__logo {
     filter: brightness(0) invert(1);
     max-width: 180px;

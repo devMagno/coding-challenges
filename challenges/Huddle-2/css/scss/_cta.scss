@@ -15,10 +15,16 @@
     padding: 40px 20px;
     text-align: center;
     background: white;
+    @include device(medium) {
+      padding: 40px 100px;
+    }
   }
   &__title {
     @include typo-1(18);
     color: $daintree;
+    @include device(medium) {
+      font-size: em(22);
+    }
   }
   &__button {
     margin: 30px 50px 0px;
@@ -34,6 +40,9 @@
     transition: background-color .2s;
     &:hover {
       background-color: lighten($drunken-flamingo, 10%);
+    }
+    @include device(medium) {
+      font-size: em(14);
     }
   }
 }
