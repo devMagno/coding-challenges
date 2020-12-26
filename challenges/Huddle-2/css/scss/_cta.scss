@@ -6,7 +6,7 @@
 
 .cta {
   position: absolute;
-  top: -200px;
+  top: -110px;
   padding: 0 15px;
   align-self: center;
   &__card {
@@ -14,6 +14,7 @@
     border-radius: 16px;
     padding: 40px 20px;
     text-align: center;
+    background: white;
   }
   &__title {
     @include typo-1(18);
