@@ -1,0 +1,75 @@
+.footer {
+  background: $daintree;
+  padding: 100px 15px 40px;
+  &__logo {
+    filter: brightness(0) invert(1);
+    max-width: 180px;
+    margin-bottom: 30px;
+  }
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  &__list {
+    margin-bottom: 20px;
+    &--contact {
+      margin-bottom: 40px;
+      .footer__link {
+        padding: 0;
+      }
+      .footer__item + .footer__item {
+        margin-top: 30px;
+      }
+      .footer__text, .footer__link {
+        @include typo-2(14, 400);
+        color: white;
+      }
+      .footer__text {
+        line-height: 1.5;
+      }
+    }
+  }
+  &__item {
+    display: flex;
+    align-items: flex-start;
+  }
+  &__icon {
+    margin-right: 20px;
+    &--location {
+      margin-top: 5px;
+    }
+  }
+  &__link {
+    text-decoration: none;
+    @include typo-2(16, 400);
+    color: white;
+    padding: 15px 15px 15px 0;
+  }
+
+  &__social {
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(3, 37px);
+    justify-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  .social__link {
+    text-decoration: none;
+    font-size: em(16);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 500px;
+    border: 1px solid;
+  }
+  
+  &__copy {
+    text-align: center;
+    @include typo-2(10, 400);
+    color: white
+  }
+}
