@@ -11,7 +11,8 @@
   padding: 30px;
   &__text {
     margin: 20px 0 50px;
-    text-align: center
+    text-align: center;
+    color: $daintree;
   }
   &__title {
     @include typo-1(26);
