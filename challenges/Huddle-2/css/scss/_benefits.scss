@@ -15,15 +15,24 @@
   &__image {
     padding: 20px 10px;
     margin-bottom: 30px;
+    @include device(medium) {
+      max-width: 500px
+    }
   }
   &__title {
     @include typo-1(20);
     color: $daintree;
     margin-bottom: 20px;
+    @include device(medium) {
+      font-size: em(24)
+    }
   }
   &__paragraph {
     @include typo-2(14, 400);
     line-height: 1.5;
     color: $prophetic-sea;
+    @include device(medium) {
+      font-size: em(16)
+    }
   }
 }
