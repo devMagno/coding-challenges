@@ -18,11 +18,17 @@
     @include typo-1(26);
     line-height: 1.5;
     margin-bottom: 20px;
+    @include device(medium) {
+      font-size: em(28);
+    }
   }
   &__subtitle {
     @include typo-2(16, 400);
     line-height: 1.5;
     margin-bottom: 30px;
+    @include device(medium) {
+      font-size: em(18);
+    }
   }
   &__button {
     margin: 0 auto;
@@ -38,6 +44,9 @@
     transition: background-color .2s;
     &:hover {
       background-color: lighten($drunken-flamingo, 10%);
+    }
+    @include device(medium) {
+      font-size: em(16);
     }
   }
 }
