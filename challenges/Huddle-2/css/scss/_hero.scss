@@ -1,0 +1,33 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 30px 30px;
+  &__text {
+    margin: 20px 0 50px;
+    text-align: center
+  }
+  &__title {
+    @include typo-1(26);
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  &__subtitle {
+    @include typo-2(16, 400);
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  &__button {
+    margin: 0 auto;
+    display: block;
+    @include typo-2(14, 600);
+    text-decoration: none;
+    color: white;
+    background-color: $drunken-flamingo;
+    width: 100%;
+    max-width: 240px;
+    padding: 15px;
+    border-radius: 500px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+  }
+}
