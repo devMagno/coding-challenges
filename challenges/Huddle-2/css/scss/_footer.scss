@@ -44,6 +44,9 @@
     @include typo-2(16, 400);
     color: white;
     padding: 15px 15px 15px 0;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   &__social {
@@ -65,6 +68,10 @@
     height: 35px;
     border-radius: 500px;
     border: 1px solid;
+    transition: color .2s;
+    &:hover {
+      color: $drunken-flamingo;
+    }
   }
   
   &__copy {
