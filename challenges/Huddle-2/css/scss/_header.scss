@@ -5,6 +5,9 @@
   align-items: center;
   &__logo {
     max-width: 130px;
+    @include device(medium) {
+      max-width: 200px;
+    }
   }
   &__button {
     display: block;
@@ -21,6 +24,11 @@
     &:hover {
       box-shadow: 1px 3px 5px rgba(0, 0, 0, .1),
                   0 0 0px 2px $drunken-flamingo;
+    }
+    @include device(medium) {
+      padding-left: 40px;
+      padding-right: 40px;
+      font-size: em(16);
     }
   }
 }
