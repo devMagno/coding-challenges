@@ -4,6 +4,11 @@
   @include device(medium) {
     padding-top: 130px;
   }
+  @include device(large) {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 130px calc((100% - 1400px) / 2) 40px;
+  }
   &__logo {
     filter: brightness(0) invert(1);
     max-width: 180px;
