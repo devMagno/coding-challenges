@@ -12,11 +12,27 @@
   &__bottom {
     display: flex;
     flex-direction: column;
+    @include device(large) {
+      display: grid;
+      grid-template-columns: 1.5fr 2fr 1fr;
+      gap: 20px;
+      justify-items: center;
+    }
   }
   &__list {
     margin-bottom: 20px;
+    @include device(large) {
+      display: grid;
+      grid-template-columns: repeat(2, 120px);
+      column-gap: 30px;
+    } 
     &--contact {
       margin-bottom: 40px;
+      display: flex;
+      flex-direction: column;
+      @include device(large) {
+        margin-top: 15px;
+      }
       .footer__link {
         padding: 0;
       }
@@ -59,6 +75,11 @@
     justify-items: center;
     margin-bottom: 20px;
     gap: 10px;
+    @include device(large) {
+      align-self: auto;
+      margin-top: 15px;
+      justify-self: start;
+    }
   }
   .social__link {
     text-decoration: none;
@@ -80,6 +101,10 @@
   &__copy {
     text-align: center;
     @include typo-2(10, 400);
-    color: white
+    color: white;
+    @include device(large) {
+      text-align: right;
+      font-size: em(12);
+    }
   }
 }
