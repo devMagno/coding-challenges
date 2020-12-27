@@ -36,8 +36,8 @@
     }
     @include device(large) {
       text-align: left;
-      max-width: 360px;
-      font-size: em(32)
+      max-width: 400px;
+      font-size: em(36)
     }
   }
   &__subtitle {
@@ -49,7 +49,7 @@
     }
     @include device(large) {
       text-align: left;
-      max-width: 655px;
+      max-width: 520px;
     }
   }
   &__button {
@@ -72,6 +72,12 @@
     }
     @include device(large) {
       margin: 0;
+      padding: 20px 30px;
+    }
+  }
+  &__image {
+    @include device(large) {
+      max-width: 720px;
     }
   }
 }
