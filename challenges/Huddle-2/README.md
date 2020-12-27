@@ -1,4 +1,7 @@
 # Huddle Landing Page With Alternating Feature Blocks 💬
+<p align="center">
+<img src="img/logo.svg" alt="Huddle" title="Huddle">
+</p>
 
 ---
 ## 📖 Sobre   
