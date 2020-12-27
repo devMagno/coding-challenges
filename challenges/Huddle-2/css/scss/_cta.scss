@@ -30,7 +30,8 @@
     }
   }
   &__button {
-    margin: 30px 50px 0px;
+    margin: 30px auto 0px;
+    max-width: 250px;
     display: block;
     text-decoration: none;
     color: white;
@@ -49,6 +50,7 @@
     }
     @include device(large) {
       margin-top: 40px;
+      padding: 20px 30px;
     }
   }
 }

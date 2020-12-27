@@ -39,5 +39,8 @@
       padding-right: 40px;
       font-size: em(16);
     }
+    @include device(large) {
+      padding: 15px 50px;
+    }
   }
 }
