@@ -4,6 +4,7 @@
 </p>
 
 ## 📖 Sobre   
+**Huddle Landing Page With Alternating Feature Blocks** é um desafio de nível **júnior** do site **[Frontend Mentor](https://www.frontendmentor.io)**. O projeto é uma _landing page_ de um app criador de comunidades e que possui um layout dividido em blocos. Para o desenvolvimento do desafio, utilizei **Flexbox** juntamente com **CSS Grid** para a criação do layout, seguindo o guia de estilos e o _design_ fornecidos. Além disso, utilizei o pré-processador **Sass** com a sintaxe SCSS e a metodologia **BEM**.
 
 ---
 
