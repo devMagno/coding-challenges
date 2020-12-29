@@ -3,9 +3,26 @@
 $font-1: 'Poppins', Arial, Helvetica, sans-serif;
 $font-2: 'Open Sans', Arial, Helvetica, sans-serif;
 
+
 $drunken-flamingo: hsl(322, 100%, 66%);
 $pink-delight: hsl(321, 100%, 78%);
 $coral-red: hsl(0, 100%, 63%);
 
 $daintree: hsl(192, 100%, 9%);
 $deutzia-white: hsl(207, 100%, 98%);
+
+
+@function em($pixels, $context: 16) {
+  @return $pixels / $context + em;
+}
+
+@mixin typo-1($size) {
+  font-family: $font-1;
+  font-size: em($size);
+  font-weight: 700;
+}
+@mixin typo-2($size, $weight: 400) {
+  font-family: $font-2;
+  font-size: em($size);
+  font-weight: $weight;
+}
