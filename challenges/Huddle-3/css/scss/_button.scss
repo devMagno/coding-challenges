@@ -4,13 +4,14 @@
   color: white;
   @include typo-2(14, 600);
   border-radius: 500px;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
-  padding: 12px 25px;
+  box-shadow: 1px 5px 5px rgba(0, 0, 0, .1);
+  padding: 15px 25px;
   &--outline {
     padding: 8px 20px;
     font-weight: 400;
     background-color: white;
     color: $drunken-flamingo;
     border: 1px solid;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
   }
 }
