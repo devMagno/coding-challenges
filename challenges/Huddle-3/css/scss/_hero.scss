@@ -1,0 +1,26 @@
+.hero {
+  padding: 80px 30px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__text {
+    margin-bottom: 80px;
+    text-align: center;
+    color: $daintree;
+  }
+  &__title {
+    @include typo-1(26);
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  &__subtitle {
+    @include typo-2(15, 400);
+    line-height: 1.5;
+    margin-bottom: 40px;
+  }
+  &__button {
+    display: block;
+    max-width: 170px;
+    margin: 0 auto;
+  }
+}
