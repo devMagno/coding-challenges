@@ -1,0 +1,14 @@
+.cta {
+  padding: 90px 30px;
+  text-align: center;
+  &__title {
+    @include typo-1(26);
+    color: $daintree;
+    margin-bottom: 30px;
+  }
+  &__button {
+    display: block;
+    max-width: 170px;
+    margin: 0 auto;
+  }
+}
