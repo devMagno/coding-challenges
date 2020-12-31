@@ -1,0 +1,59 @@
+.footer {
+  &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 15vw;
+    background: url('../img/bg-footer-top-mobile.svg') no-repeat;
+    background-size: cover;
+  }
+  &__content {
+    padding: 50px 30px;
+    background-color: $daintree;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 70px;
+  }
+  .contact {
+    &__logo {
+      filter: brightness(0) invert(1);
+    }
+  }
+  .newsletter {
+    order: -1;
+    color: white;
+    &__title {
+      @include typo-2(20, 600);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+    }
+    &__paragraph {
+      @include typo-2(14.5, 400);
+      line-height: 1.5;
+      margin-bottom: 25px;
+    }
+    &__form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    &__input, &__button {
+      border: none;
+      outline: none;
+      border-radius: 6px;
+    }
+    &__input {
+      box-sizing: border-box;
+      width: 100%;
+      @include typo-2(16, 400);
+      color: $daintree;
+      padding: 15px;
+      margin-bottom: 15px;
+    }
+    &__button {
+      padding: 15px 40px;
+      font-size: em(16);
+    }
+  }
+}
