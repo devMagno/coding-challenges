@@ -1,0 +1,25 @@
+.data {
+  padding: 40px 30px 110px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 80px;
+  &__item {
+    margin: 0 auto;
+    width: 153px;
+  }
+  &__icon {
+    max-width: 30px;
+    margin-bottom: 5px;
+  }
+  &__numbers {
+    @include typo-2(50, 700);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  &__paragraph {
+    color: $daintree;
+    text-align: center;
+    @include typo-2(14, 400);
+    opacity: .8;
+  }
+}
