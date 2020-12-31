@@ -34,6 +34,9 @@
       color: white;
       @include typo-2(14.5, 400);
       text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
     }
     &__icon {
       margin-right: 10px;
@@ -45,6 +48,10 @@
       &__link {
         font-size: 30px;
         color: white;
+        transition: color .2s;
+        &:hover {
+          color: $drunken-flamingo;
+        }
       }
     }
   }
@@ -79,6 +86,10 @@
       color: $daintree;
       padding: 15px;
       margin-bottom: 15px;
+      transition: box-shadow .2s;
+      &:hover, &:focus {
+        box-shadow: inset 0px 0px 0px 2px $drunken-flamingo;
+      }
     }
     &__button {
       padding: 15px 40px;
