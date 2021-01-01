@@ -3,9 +3,16 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 80px;
+  @include device(medium) {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
   &__item {
     margin: 0 auto;
     width: 153px;
+    @include device(large) {
+      width: auto;
+    }
   }
   &__icon {
     max-width: 30px;
@@ -15,11 +22,18 @@
     @include typo-2(50, 700);
     letter-spacing: 1px;
     margin-bottom: 10px;
+    @include device(large) {
+      font-size: em(60);
+      margin-bottom: 15px;
+    }
   }
   &__paragraph {
     color: $daintree;
     text-align: center;
     @include typo-2(14, 400);
     opacity: .8;
+    @include device(large) {
+      font-size: em(18);
+    }
   }
 }
