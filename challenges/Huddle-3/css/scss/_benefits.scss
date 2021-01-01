@@ -14,6 +14,10 @@
         height: 30vw;
         background: url('../img/bg-section-top-mobile-1.svg') no-repeat;
         background-size: cover;
+        @include device(600px) {
+          background-image: url('../img/bg-section-top-desktop-1.svg');
+          height: 10vw;
+        }
       }
       &::after {
         content: '';
@@ -22,6 +26,10 @@
         height: 30vw;
         background: url('../img/bg-section-bottom-mobile-1.svg') no-repeat;
         background-size: cover;
+        @include device(600px) {
+          background-image: url('../img/bg-section-bottom-desktop-1.svg');
+          height: 10vw;
+        }
       }
     }
     &--users {
@@ -35,6 +43,10 @@
         height: 30vw;
         background: url('../img/bg-section-top-mobile-2.svg') no-repeat;
         background-size: cover;
+        @include device(600px) {
+          background-image: url('../img/bg-section-top-desktop-2.svg');
+          height: 10vw;
+        }
       }
       &::after {
         content: '';
@@ -43,6 +55,10 @@
         height: 30vw;
         background: url('../img/bg-section-bottom-mobile-2.svg') no-repeat;
         background-size: cover;
+        @include device(600px) {
+          background-image: url('../img/bg-section-bottom-desktop-2.svg');
+          height: 10vw;
+        }
       }
     }
   }
@@ -53,22 +69,44 @@
     gap: 40px;
     text-align: center;
     padding: 15px 30px;
+    @include device(medium) {
+      padding: 20px calc((100% - 1300px) / 2);
+      margin: 0 auto;
+      text-align: left;
+      gap: 0;
+    }
   }
   &__image {
     padding: 10px 25px;
+    @include device(medium) {
+      margin: 0 50px;
+      padding: 0;
+    }
     &--right {
       order: -1;
+      @include device(500px) {
+        order: 1;
+      }
     }
   }
   &__text {
     color: $daintree;
+    @include device(medium) {
+      margin: 0 50px;
+    }
   }
   &__title {
     @include typo-1(22);
     margin-bottom: 20px;
+    @include device(large) {
+      font-size: em(28);
+    }
   }
   &__paragraph {
     @include typo-2(14, 400);
     line-height: 1.5;
+    @include device(large) {
+      font-size: em(16);
+    }
   }
 }
