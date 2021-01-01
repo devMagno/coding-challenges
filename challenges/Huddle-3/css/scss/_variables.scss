@@ -26,3 +26,16 @@ $deutzia-white: hsl(207, 100%, 98%);
   font-size: em($size);
   font-weight: $weight;
 }
+
+@mixin device($screen) {
+  @if $screen == medium {
+    @media only screen and (min-width: 768px) {
+      @content;
+    }
+  }
+  @else if $screen == large {
+    @media only screen and (min-width: 992px) {
+      @content;
+    }
+  }
+}
