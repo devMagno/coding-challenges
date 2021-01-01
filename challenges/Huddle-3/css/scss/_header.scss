@@ -3,7 +3,18 @@
   align-items: center;
   justify-content: space-between;
   padding: 30px 20px;
+  @include device(medium) {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px 40px;
+  }
   &__logo {
     max-width: 115px;
+    @include device(medium) {
+      max-width: 160px;
+    }
+    @include device(large) {
+      max-width: none;
+    }
   }
 }
