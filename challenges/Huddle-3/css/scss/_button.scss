@@ -8,6 +8,10 @@
   padding: 15px 25px;
   transition: background-color .2s;
   cursor: pointer;
+  @include device(medium) {
+    font-size: 18px;
+    padding: 20px;
+  }
   &:hover {
     background-color: $pink-delight;
   }
@@ -19,6 +23,9 @@
     border: 1px solid;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
     transition: background-color .2s, color .2s, border-color .2s;
+    @include device(medium) {
+      padding: 12px 25px;
+    }
     &:hover {
       background-color: $pink-delight;
       color: white;
