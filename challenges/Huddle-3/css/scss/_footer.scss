@@ -6,6 +6,10 @@
     height: 15vw;
     background: url('../img/bg-footer-top-mobile.svg') no-repeat;
     background-size: cover;
+    @include device(large) {
+      background-image: url('../img/bg-footer-top-desktop.svg');
+      height: 12vw;
+    }
   }
   &__content {
     padding: 50px 30px;
@@ -13,8 +17,16 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 70px;
+    @include device(large) {
+      max-width: 1300px;
+      padding: 80px calc((100% - 1300px) / 2);
+      gap: 0;
+    }
   }
   .contact {
+    @include device(large) {
+      margin: 0 50px;
+    }
     &__logo {
       filter: brightness(0) invert(1);
       margin-bottom: 15px;
@@ -23,6 +35,10 @@
       @include typo-2(14.5, 400);
       color: white;
       line-height: 1.5;
+      @include device(large) {
+        font-size: em(16);
+        max-width: 350px;
+      }
     }
     &__list {
       margin: 30px 0;
@@ -58,6 +74,12 @@
   .newsletter {
     order: -1;
     color: white;
+    @include device(630px) {
+      order: 0;
+    }
+    @include device(large) {
+      margin: 0 50px;
+    }
     &__title {
       @include typo-2(20, 600);
       text-transform: uppercase;
@@ -68,11 +90,18 @@
       @include typo-2(14.5, 400);
       line-height: 1.5;
       margin-bottom: 25px;
+      @include device(large) {
+        font-size: em(16);
+        max-width: 390px;
+      }
     }
     &__form {
       display: flex;
       flex-direction: column;
       align-items: flex-end;
+      @include device(large) {
+        flex-direction: row;
+      }
     }
     &__input, &__button {
       border: none;
@@ -87,6 +116,10 @@
       padding: 15px;
       margin-bottom: 15px;
       transition: box-shadow .2s;
+      @include device(large) {
+        margin-bottom: 0;
+        margin-right: 20px;
+      }
       &:hover, &:focus {
         box-shadow: inset 0px 0px 0px 2px $drunken-flamingo;
       }
