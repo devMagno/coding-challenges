@@ -7,6 +7,10 @@
     padding-left: 70px;
     padding-right: 70px;
   }
+  @include device(large) {
+    max-width: 1300px;
+    margin: 0 auto;
+  }
   &__text {
     margin-bottom: 80px;
     text-align: center;
@@ -16,6 +20,9 @@
     @include typo-1(26);
     line-height: 1.5;
     margin-bottom: 20px;
+    @include device(large) {
+      font-size: em(40);
+    }
   }
   &__subtitle {
     @include typo-2(15, 400);
@@ -24,6 +31,10 @@
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+    @include device(large) {
+      font-size: em(18);
+      max-width: 530px;
+    }
   }
   &__button {
     display: block;
@@ -31,6 +42,11 @@
     margin: 0 auto;
     @include device(medium) {
       max-width: 205px;
+    }
+  }
+  &__image {
+    @include device(large) {
+      max-width: 900px;
     }
   }
 }
