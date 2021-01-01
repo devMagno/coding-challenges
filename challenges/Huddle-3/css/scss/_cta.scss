@@ -1,14 +1,23 @@
 .cta {
   padding: 90px 30px;
   text-align: center;
+  @include device(large) {
+    padding: 120px 30px;
+  }
   &__title {
     @include typo-1(26);
     color: $daintree;
     margin-bottom: 30px;
+    @include device(medium) {
+      font-size: em(30);
+    }
   }
   &__button {
     display: block;
     max-width: 170px;
     margin: 0 auto;
+    @include device(medium) {
+      max-width: 205px;
+    }
   }
 }
