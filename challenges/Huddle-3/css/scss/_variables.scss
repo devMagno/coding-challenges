@@ -38,4 +38,9 @@ $deutzia-white: hsl(207, 100%, 98%);
       @content;
     }
   }
+  @else {
+    @media only screen and(min-width: $screen) {
+      @content;
+    }
+  }
 }
