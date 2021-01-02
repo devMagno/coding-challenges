@@ -4,7 +4,7 @@
 </p>
 
 ## 📖 Sobre   
-**Huddle Landing Page With Curved Sections** é um desafio de nível **júnior** do site **[Frontend Mentor](https://www.frontendmentor.io)**. O projeto é uma _landing page_ de um app criador de comunidades e que possui um layout dividido em blocos. Para o desenvolvimento do desafio, utilizei **Flexbox** juntamente com **CSS Grid** para a criação do layout, seguindo o guia de estilos e o _design_ fornecidos. Além disso, utilizei o pré-processador **Sass** com a sintaxe SCSS e a metodologia **BEM**.
+**Huddle Landing Page With Curved Sections** é um desafio de nível **júnior** do site **[Frontend Mentor](https://www.frontendmentor.io)**. O projeto trata-se de uma _landing page_ de um aplicativo de comunidades que possui um _layout_ de seções curvas. Para o desenvolvimento do desafio, utilizei a abordagem **mobile-first**, além do pré-processador **Sass**, juntamente da metodologia **BEM** para nomeação de classes, seguindo o _design_ e o _style guide_ fornecidos.
 
 ---
 
