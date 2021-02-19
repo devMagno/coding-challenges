@@ -16,7 +16,16 @@
       }
     }
   }
-
+  .overlay {
+    position: fixed;
+    top: 70px;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    background-image: linear-gradient($dark-blue, transparent);
+  }
+  
 
   &__nav {
     display: flex;
