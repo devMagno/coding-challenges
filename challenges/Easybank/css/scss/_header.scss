@@ -3,6 +3,21 @@
   @include breakpoint-up(large) {
     padding: 17px 24px;
   }
+  &.open {
+    .header__hamburger {
+      > span:first-child {
+        transform: translateY(7px) rotate(45deg);
+      }
+      > span:nth-child(2) {
+        opacity: 0;
+      }
+      > span:last-child {
+        transform: translateY(-7px) rotate(-45deg);
+      }
+    }
+  }
+
+
   &__nav {
     display: flex;
     align-items: center;
@@ -28,8 +43,9 @@
       width: 26px;
       height: 2px;
       background-color: $dark-blue;
+      transition: all .3s ease-in-out;
       &:not(:last-child) {
-        margin-bottom: 3px;
+        margin-bottom: 5px;
       }
     }
   }
