@@ -10,3 +10,25 @@ $white: hsl(0, 0%, 100%);
 @function em($pixels, $context: 16) {
   @return $pixels / $context + em;
 }
+
+$breakpoints-up: (
+  "medium": "39.9375em",
+  "large": "63.9375em",
+  "xlarge": "87.4357em"
+);
+$breakpoints-down: (
+  "small": "39.9375em",
+  "medium": "63.9375em",
+  "large": "87.4357em"
+);
+
+@mixin breakpoint-up($size) {
+  @media (min-width: map-get($breakpoints-up, $size)) {
+    @content;
+  }
+}
+@mixin breakpoint-down($size) {
+  @media (max-width: map-get($breakpoints-down, $size)) {
+    @content;
+  }
+}
