@@ -11,3 +11,20 @@
 .no-scroll {
   overflow: hidden;
 }
+button, .cta {
+  position: relative;
+  display: inline-block;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 35px;
+  font-size: em(14);
+  background: linear-gradient(to right, $lime-green, $bright-cyan);
+  color: $white;
+  border-radius: 50px;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+  &:hover {
+    opacity: .75;
+  }
+}

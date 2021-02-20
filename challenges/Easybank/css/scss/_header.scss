@@ -89,19 +89,6 @@
     }
   }
 
-  &__cta {
-    padding: 14px 35px;
-    border-radius: 50px;
-    background: linear-gradient(to right, $lime-green, $bright-cyan);
-    color: $white;
-    font-size: em(14);
-    opacity: 1;
-    transition: opacity .3s ease-in-out;
-    &:hover {
-      opacity: .75;
-    }
-  }
-
   &__menu {
     visibility: hidden;
     position: absolute;
