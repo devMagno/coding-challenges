@@ -8,11 +8,12 @@
     opacity: 0;
   }
   to {
+    visibility: visible;
     opacity: 1;
   }
 }
 .fade-in {
-  animation: fade-in .3s ease-in-out forwards;
+  animation: fade-in .2s ease-in-out forwards;
 }
 
 @keyframes fade-out {
@@ -30,5 +31,5 @@
   }
 }
 .fade-out {
-  animation: fade-out .3s ease-in-out forwards;
+  animation: fade-out .2s ease-in-out forwards;
 }
