@@ -1,5 +1,4 @@
 .header {
-  padding: 10px 0;
   @include breakpoint-up(large) {
     padding: 17px 24px;
   }
@@ -17,6 +16,8 @@
     }
   }
   .overlay {
+    visibility: hidden;
+    opacity: 0;
     position: fixed;
     top: 70px;
     right: 0;
@@ -31,6 +32,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px 0;
   }
 
   &__logo {
@@ -97,6 +99,30 @@
     transition: opacity .3s ease-in-out;
     &:hover {
       opacity: .75;
+    }
+  }
+
+  &__menu {
+    visibility: hidden;
+    position: absolute;
+    background: $white;
+    width: calc(100% - 48px);
+    z-index: 2;
+    left: 50%;
+    margin-top: 24px;
+    padding: 24px;
+    transform: translateX(-50%);
+    border-radius: 3px;
+    a {
+      position: relative;
+      color: $dark-blue;
+      transition: color .2s;
+      padding: 10px 0;
+      display: block;
+      text-align: center;
+      &:hover {
+        color: $grayish-blue;
+      }
     }
   }
 }
