@@ -63,13 +63,15 @@
   }
   
   &__text {
-    padding: 36px 24px;
+    padding: 70px 24px;
     text-align: center;
     color: $dark-blue;
     @include breakpoint-up(large) {
       flex: 2;
       order: 1;
       text-align: left;
+      padding-top: 96px;
+      padding-bottom: 96px;
     }
   }
 }
