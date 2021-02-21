@@ -71,23 +71,5 @@
       order: 1;
       text-align: left;
     }
-    h1 {
-      font-size: em(37);
-      line-height: 1.15;
-      font-weight: 300;
-      margin-bottom: 24px;
-      @include breakpoint-up(large) {
-        font-size: em(52);
-      }
-    }
-    p {
-      font-weight: 300;
-      line-height: 1.5;
-      margin-bottom: 36px;
-      @include breakpoint-up(large) {
-        font-size: em(18);
-      }
-    }
   }
-
 }

@@ -28,3 +28,32 @@ button, .cta {
     opacity: .75;
   }
 }
+h1, h2, h3 {
+  color: $dark-blue;
+  font-weight: 300;
+  line-height: 1.15;
+}
+p {
+  color: $grayish-blue;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 36px;
+  @include breakpoint-up(large) {
+    font-size: em(18);
+  }
+}
+h1 {
+  font-size: em(37);
+  margin-bottom: 24px;
+  @include breakpoint-up(large) {
+    font-size: em(52);
+  }
+}
+h2 {
+  font-size: em(30);
+  margin-bottom: 25px;
+  @include breakpoint-up(large) {
+    font-size: em(36);
+    margin-bottom: 36px;
+  }
+}
