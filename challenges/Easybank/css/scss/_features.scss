@@ -4,7 +4,7 @@
   &__content {
     max-width: 1110px;
     margin: auto;
-    padding: 70px 24px;
+    padding: 70px 9px;
     @include breakpoint-up(large) {
       padding-top: 96px;
       padding-bottom: 96px;
@@ -13,6 +13,7 @@
 
   &__intro {
     margin-bottom: 60px;
+    padding: 0 15px;
     @include breakpoint-up(large) {
       width: 60%;
     }
