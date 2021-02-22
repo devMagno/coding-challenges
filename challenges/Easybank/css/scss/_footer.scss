@@ -1,0 +1,111 @@
+.footer {
+  background-color: $dark-blue;
+  &__content {
+    max-width: 1110px;
+    margin: auto;
+    color: $white;
+    padding: 40px;
+    text-align: center;
+    @include breakpoint-up(large) {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 2fr;
+      grid-template-rows: 1fr auto;
+      grid-template-areas: 
+      "logo   links1 links2 cta"
+      "social links1 links2 copyright";
+      justify-items: start;
+      text-align: left;
+      gap: 16px;
+    }
+  }
+  &__logo {
+    display: block;
+    margin-bottom: 30px;
+    grid-area: logo;
+    @include breakpoint-up(large) {
+      margin-bottom: 0;
+    }
+    img {
+      margin: auto;
+      @include breakpoint-up(large) {
+        margin: 0;
+      }
+    }
+  }
+  .social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    grid-area: social;
+    @include breakpoint-up(large) {
+      justify-content: flex-start;
+      margin-bottom: 0;
+      align-self: end;
+    }
+    &__item {
+      &:not(:last-child) {
+        margin-right: 16px;
+      }
+    }
+    &__link {
+      font-size: 22px;
+      transition: color .2s ease-in-out;
+      &:hover {
+        color: $lime-green;
+      }
+    }
+  }
+
+  &__links {
+    @include breakpoint-up(large) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    &--col1 {
+      grid-area: links1;
+    }
+    &--col2 {
+      margin-bottom: 30px;
+      grid-area: links2;
+      @include breakpoint-up(large) {
+        margin-bottom: 0;
+      }
+    }
+  }
+  &__link {
+    font-size: em(15);
+    display: block;
+    line-height: 2.25;
+    transition: color .2s ease-in-out;
+    &:hover {
+      color: $lime-green;
+    }
+  }
+
+  &__cta {
+    grid-area: cta;
+    @include breakpoint-up(large) {
+      justify-self: end;
+      text-align: right;
+    }
+  }
+  .cta {
+    margin-bottom: 30px;
+    @include breakpoint-up(large) {
+      margin-bottom: 0;
+    }
+  }
+  &__copyright {
+    font-size: em(13);
+    p {
+      margin-bottom: 0;
+    }
+    @include breakpoint-up(large) {
+      grid-area: copyright;
+      justify-self: end;
+      text-align: right;
+      align-self: end;
+    }
+  }
+}
