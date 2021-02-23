@@ -4,6 +4,7 @@
 </p>
 
 ## 📖 Sobre   
+**Easybank landing page** é um desafio de nível **intermediário** do site **[Frontend Mentor](https://www.frontendmentor.io)**. O projeto trata-se de uma _landing page_ de um aplicativo de banco, que contém uma seção _hero_ e outras seções contendo funcionalidades do aplicativo, além de artigos. O projeto foi desenvolvido utilizando **HTML semântico**, o pré-processador **Sass** com a sintaxe SCSS, juntamente da metodologia **BEM** para nomeação de classes, além de **JavaScript** para criação do menu mobile e as propriedades **Grid** e **Flexbox** do CSS para garantir a responsividade da página.
 
 ---
 
