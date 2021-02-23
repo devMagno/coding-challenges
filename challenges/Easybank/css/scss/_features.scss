@@ -12,10 +12,12 @@
   }
 
   &__intro {
+    text-align: center;
     margin-bottom: 60px;
     padding: 0 15px;
     @include breakpoint-up(large) {
       width: 60%;
+      text-align: left;
     }
   }
   &__grid {

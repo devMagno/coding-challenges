@@ -1,5 +1,11 @@
 .article {
   background-color: $very-light-gray;
+  h2 {
+    text-align: center;
+    @include breakpoint-up(large) {
+      text-align: left;
+    }
+  }
   &__content {
     max-width: 1110px;
     margin: auto;
